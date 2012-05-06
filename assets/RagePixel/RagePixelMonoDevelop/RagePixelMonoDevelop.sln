@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RagePixelMonoDevelop", "RagePixelMonoDevelop.csproj", "{3895E474-948B-48B4-8ADE-5DEF001B6035}"
+EndProject
+Project("{9344bdbb-3e7f-41fc-a0dd-8665d75ee146}") = "Packages", "Packages.mdproj", "{FC2C67AA-C419-4C45-8006-CFE27D3F621C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3895E474-948B-48B4-8ADE-5DEF001B6035}.Debug|x86.ActiveCfg = Debug|x86
+		{3895E474-948B-48B4-8ADE-5DEF001B6035}.Debug|x86.Build.0 = Debug|x86
+		{3895E474-948B-48B4-8ADE-5DEF001B6035}.Release|x86.ActiveCfg = Release|x86
+		{3895E474-948B-48B4-8ADE-5DEF001B6035}.Release|x86.Build.0 = Release|x86
+		{FC2C67AA-C419-4C45-8006-CFE27D3F621C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FC2C67AA-C419-4C45-8006-CFE27D3F621C}.Debug|x86.Build.0 = Debug|Any CPU
+		{FC2C67AA-C419-4C45-8006-CFE27D3F621C}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = RagePixelMonoDevelop.csproj
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.StandardHeader = $2
+		$2.Text = 
+		$2.IncludeInNewFiles = True
+		$0.VersionControlPolicy = $3
+		$3.inheritsSet = Mono
+		$0.ChangeLogPolicy = $4
+		$4.UpdateMode = Nearest
+		$4.VcsIntegration = RequireEntry
+		$4.MessageStyle = $5
+		$5.LineAlign = 0
+		$4.inheritsSet = Mono
+		description = MonoDevelop Project for the Rage Pixel toolkit for Unity
+		outputpath = .
+	EndGlobalSection
+EndGlobal

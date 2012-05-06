@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ItemType>PackagingProject</ItemType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FC2C67AA-C419-4C45-8006-CFE27D3F621C}</ProjectGuid>
+    <Packages>
+      <Packages>
+        <Package name="Mono Makefile Sources">
+          <Builder targetFile="RagePixelMonoDevelop-.tar.gz" format="MonoDevelop.Projects.FileFormat" ctype="SourcesZipPackageBuilder">
+            <ChildEntries>
+              <SolutionItemReference path="RagePixelMonoDevelop.csproj" />
+            </ChildEntries>
+            <RootEntry path="RagePixelMonoDevelop.sln" id=":root:" />
+          </Builder>
+        </Package>
+        <Package name="Linux Binaries">
+          <Builder targetFile="RagePixelMonoDevelop-linux.tar.gz" platform="Linux" configuration="Debug|x86" ctype="BinariesZipPackageBuilder">
+            <ChildEntries>
+              <SolutionItemReference path="RagePixelMonoDevelop.csproj" />
+            </ChildEntries>
+            <RootEntry path="RagePixelMonoDevelop.sln" id=":root:" />
+          </Builder>
+        </Package>
+        <Package name="Microsoft Windows Binaries">
+          <Builder targetFile="RagePixelMonoDevelop-windows.tar.gz" platform="Windows" configuration="Debug|x86" ctype="BinariesZipPackageBuilder">
+            <ChildEntries>
+              <SolutionItemReference path="RagePixelMonoDevelop.csproj" />
+            </ChildEntries>
+            <RootEntry path="RagePixelMonoDevelop.sln" id=":root:" />
+          </Builder>
+        </Package>
+        <Package name="Tarball">
+          <Builder TargetDirectory="." DefaultConfiguration="Debug|x86" ctype="TarballDeployTarget">
+            <ChildEntries>
+              <SolutionItemReference path="RagePixelMonoDevelop.csproj" />
+            </ChildEntries>
+            <RootEntry path="RagePixelMonoDevelop.sln" id=":root:" />
+          </Builder>
+        </Package>
+      </Packages>
+    </Packages>
+  </PropertyGroup>
+</Project>

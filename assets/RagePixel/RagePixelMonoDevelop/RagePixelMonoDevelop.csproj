@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3895E474-948B-48B4-8ADE-5DEF001B6035}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>RagePixelMonoDevelop</RootNamespace>
+    <AssemblyName>RagePixelMonoDevelop</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <Description>Rage Pixel C# project</Description>
+    <newfilesearch>OnLoadAutoInsert</newfilesearch>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <GenerateDocumentation>true</GenerateDocumentation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="expansions">
+      <HintPath>expansions.m4</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Compile Include="expansions.m4" />
+    <Compile Include="code\IRagePixel.cs" />
+    <Compile Include="code\RagePixelAnimation.cs" />
+    <Compile Include="code\RagePixelBitmap.cs" />
+    <Compile Include="code\RagePixelCamera.cs" />
+    <Compile Include="code\RagePixelCell.cs" />
+    <Compile Include="code\RagePixelRow.cs" />
+    <Compile Include="code\RagePixelSettings.cs" />
+    <Compile Include="code\RagePixelSprite.cs" />
+    <Compile Include="code\RagePixelSpriteSheet.cs" />
+    <Compile Include="editor\RagePixelAnimStripGUI.cs" />
+    <Compile Include="editor\RagePixelCameraEditor.cs" />
+    <Compile Include="editor\RagePixelColorPickerGUI.cs" />
+    <Compile Include="editor\RagePixelGUIIcons.cs" />
+    <Compile Include="editor\RagePixelHSBColor.cs" />
+    <Compile Include="editor\RagePixelPaletteGUI.cs" />
+    <Compile Include="editor\RagePixelSpriteEditor.cs" />
+    <Compile Include="editor\RagePixelSpriteSheetEditorWindow.cs" />
+    <Compile Include="editor\RagePixelSpriteSheetGUI.cs" />
+    <Compile Include="editor\RagePixelTexel.cs" />
+    <Compile Include="editor\RagePixelTexelRect.cs" />
+    <Compile Include="editor\RagePixelTransformInspector.cs" />
+    <Compile Include="editor\RagePixelUtil.cs" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <MonoDevelop.Autotools.MakefileInfo IntegrationEnabled="true" RelativeMakefileName="Makefile.am" SyncReferences="true" IsAutotoolsProject="true" RelativeConfigureInPath=".">
+          <BuildFilesVar Sync="true" Name="EXTRA_DIST" />
+          <DeployFilesVar Sync="true" Name="EXTRA_DIST" />
+          <ResourcesVar Sync="true" Name="EXTRA_DIST" />
+          <OthersVar Sync="true" Name="EXTRA_DIST" />
+          <GacRefVar Sync="true" Name="EXTRA_DIST" />
+          <AsmRefVar Sync="true" Name="EXTRA_DIST" />
+          <ProjectRefVar Sync="true" Name="EXTRA_DIST" />
+        </MonoDevelop.Autotools.MakefileInfo>
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+  <ItemGroup>
+    <None Include="RagePixelMonoDevelop.make" />
+    <None Include="RagePixelMonoDevelop.userprefs" />
+    <None Include="app.desktop" />
+    <None Include="autogen.sh" />
+    <None Include="ragepixelmonodevelop.in" />
+    <None Include="code\RagePixelBasic.shader" />
+    <None Include="code\RagePixelBasicFlash.shader" />
+    <None Include="icons\animation.png" />
+    <None Include="icons\arrowright.png" />
+    <None Include="icons\cursor.png" />
+    <None Include="icons\fill.png" />
+    <None Include="icons\pencil.png" />
+    <None Include="icons\replace.png" />
+    <None Include="icons\resize.png" />
+    <None Include="icons\selection.png" />
+  </ItemGroup>
+</Project>
