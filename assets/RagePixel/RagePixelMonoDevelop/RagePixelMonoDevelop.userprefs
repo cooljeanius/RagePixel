@@ -1,20 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="code/RagePixelSpriteSheet.cs">
-    <Files>
-      <File FileName="code/IRagePixel.cs" Line="1" Column="1" />
-      <File FileName="code/RagePixelAnimation.cs" Line="1" Column="1" />
-      <File FileName="code/RagePixelBasic.shader" Line="1" Column="1" />
-      <File FileName="code/RagePixelBasicFlash.shader" Line="1" Column="1" />
-      <File FileName="code/RagePixelBitmap.cs" Line="1" Column="1" />
-      <File FileName="code/RagePixelCamera.cs" Line="1" Column="1" />
-      <File FileName="code/RagePixelCell.cs" Line="1" Column="1" />
-      <File FileName="code/RagePixelRow.cs" Line="1" Column="1" />
-      <File FileName="code/RagePixelSettings.cs" Line="1" Column="1" />
-      <File FileName="code/RagePixelSprite.cs" Line="1" Column="1" />
-      <File FileName="code/RagePixelSpriteSheet.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
