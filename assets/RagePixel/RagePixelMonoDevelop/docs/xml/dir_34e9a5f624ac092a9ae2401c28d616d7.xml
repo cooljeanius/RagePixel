@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="dir_34e9a5f624ac092a9ae2401c28d616d7" kind="dir">
+    <compoundname>assets/</compoundname>
+    <innerdir refid="dir_913b60672ec9dc57e251310efc0e46df">assets/RagePixel/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/RagePixel/assets/"/>
+  </compounddef>
+</doxygen>

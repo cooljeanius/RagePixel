@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_rage_pixel_settings" kind="class" prot="public">
+    <compoundname>RagePixelSettings</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_settings_1a5d3df988086621df8c6e9014b3f231d2" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RagePixelSettings.showCameraWarnings</definition>
+        <argsstring></argsstring>
+        <name>showCameraWarnings</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSettings.cs" line="6" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSettings.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_settings_1a6cc1e2c3f456101612e7b6ab64060867" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RagePixelSettings.initialSpritesheetGenerated</definition>
+        <argsstring></argsstring>
+        <name>initialSpritesheetGenerated</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSettings.cs" line="7" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSettings.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_settings_1a23a6e28191ac92499b25879f753ee9d2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_bitmap" kindref="compound">RagePixelBitmap</ref></type>
+        <definition>RagePixelBitmap RagePixelSettings._clipboard</definition>
+        <argsstring></argsstring>
+        <name>_clipboard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSettings.cs" line="8" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSettings.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_settings_1a71f230ed1bfc0f35bf8105a525427341" prot="private" static="no" mutable="no">
+        <type>Color[]</type>
+        <definition>Color [] RagePixelSettings._palette</definition>
+        <argsstring></argsstring>
+        <name>_palette</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSettings.cs" line="27" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSettings.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_rage_pixel_settings_1ae2592aea0fd3c827af2c9b0dacb22ede" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_rage_pixel_bitmap" kindref="compound">RagePixelBitmap</ref></type>
+        <definition>RagePixelBitmap RagePixelSettings.clipboard</definition>
+        <argsstring></argsstring>
+        <name>clipboard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSettings.cs" line="24" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSettings.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_settings_1ac3e79e91a0c9142618bcdf4281adb1d5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Color[]</type>
+        <definition>Color [] RagePixelSettings.palette</definition>
+        <argsstring></argsstring>
+        <name>palette</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSettings.cs" line="49" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSettings.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSettings.cs" line="5" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSettings.cs" bodystart="4" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_rage_pixel_settings_1a23a6e28191ac92499b25879f753ee9d2" prot="private" virt="non-virtual"><scope>RagePixelSettings</scope><name>_clipboard</name></member>
+      <member refid="class_rage_pixel_settings_1a71f230ed1bfc0f35bf8105a525427341" prot="private" virt="non-virtual"><scope>RagePixelSettings</scope><name>_palette</name></member>
+      <member refid="class_rage_pixel_settings_1ae2592aea0fd3c827af2c9b0dacb22ede" prot="public" virt="non-virtual"><scope>RagePixelSettings</scope><name>clipboard</name></member>
+      <member refid="class_rage_pixel_settings_1a6cc1e2c3f456101612e7b6ab64060867" prot="public" virt="non-virtual"><scope>RagePixelSettings</scope><name>initialSpritesheetGenerated</name></member>
+      <member refid="class_rage_pixel_settings_1ac3e79e91a0c9142618bcdf4281adb1d5" prot="public" virt="non-virtual"><scope>RagePixelSettings</scope><name>palette</name></member>
+      <member refid="class_rage_pixel_settings_1a5d3df988086621df8c6e9014b3f231d2" prot="public" virt="non-virtual"><scope>RagePixelSettings</scope><name>showCameraWarnings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

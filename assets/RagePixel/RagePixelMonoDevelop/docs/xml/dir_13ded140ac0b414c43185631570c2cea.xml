@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="dir_13ded140ac0b414c43185631570c2cea" kind="dir">
+    <compoundname>assets/RagePixel/RagePixelMonoDevelop/editor/</compoundname>
+    <innerfile refid="_rage_pixel_anim_strip_g_u_i_8cs">RagePixelAnimStripGUI.cs</innerfile>
+    <innerfile refid="_rage_pixel_camera_editor_8cs">RagePixelCameraEditor.cs</innerfile>
+    <innerfile refid="_rage_pixel_color_picker_g_u_i_8cs">RagePixelColorPickerGUI.cs</innerfile>
+    <innerfile refid="_rage_pixel_g_u_i_icons_8cs">RagePixelGUIIcons.cs</innerfile>
+    <innerfile refid="_rage_pixel_h_s_b_color_8cs">RagePixelHSBColor.cs</innerfile>
+    <innerfile refid="_rage_pixel_palette_g_u_i_8cs">RagePixelPaletteGUI.cs</innerfile>
+    <innerfile refid="_rage_pixel_sprite_editor_8cs">RagePixelSpriteEditor.cs</innerfile>
+    <innerfile refid="_rage_pixel_sprite_sheet_editor_window_8cs">RagePixelSpriteSheetEditorWindow.cs</innerfile>
+    <innerfile refid="_rage_pixel_sprite_sheet_g_u_i_8cs">RagePixelSpriteSheetGUI.cs</innerfile>
+    <innerfile refid="_rage_pixel_texel_8cs">RagePixelTexel.cs</innerfile>
+    <innerfile refid="_rage_pixel_texel_rect_8cs">RagePixelTexelRect.cs</innerfile>
+    <innerfile refid="_rage_pixel_transform_inspector_8cs">RagePixelTransformInspector.cs</innerfile>
+    <innerfile refid="_rage_pixel_util_8cs">RagePixelUtil.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,573 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_rage_pixel_palette_g_u_i" kind="class" prot="public">
+    <compoundname>RagePixelPaletteGUI</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_palette_g_u_i_1afe5ead633e26af1e9b5d37de476cd60c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RagePixelPaletteGUI.visible</definition>
+        <argsstring></argsstring>
+        <name>visible</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="7" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_palette_g_u_i_1a45f49ebe26add1ebd099b248d4803d76" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color RagePixelPaletteGUI.backgroundColor</definition>
+        <argsstring></argsstring>
+        <name>backgroundColor</name>
+        <initializer>
+                (PlayerSettings.advancedLicense) ?
+                new Color(0f, 0f, 0f, 0f) :
+                new Color(0f, 0f, 0f, 0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="11" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_palette_g_u_i_1acc2415e0840f9dfc4a97a62c2d39d368" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RagePixelPaletteGUI.animStripIsDirty</definition>
+        <argsstring></argsstring>
+        <name>animStripIsDirty</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="12" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_palette_g_u_i_1a43bf5e9f3ebd8c8a056567d6f4b84363" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RagePixelPaletteGUI.isDirty</definition>
+        <argsstring></argsstring>
+        <name>isDirty</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="13" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_palette_g_u_i_1a184f3c0d063067fc4bb48d62a1e53617" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelPaletteGUI.dragTargetIndex</definition>
+        <argsstring></argsstring>
+        <name>dragTargetIndex</name>
+        <initializer> -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="14" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_palette_g_u_i_1a4e6c904351cd4f8d4046604fff20cd8e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelPaletteGUI.positionX</definition>
+        <argsstring></argsstring>
+        <name>positionX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="15" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_palette_g_u_i_1a1e40e740099a282a3a85497db43c847f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelPaletteGUI.positionY</definition>
+        <argsstring></argsstring>
+        <name>positionY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="16" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_rage_pixel_palette_g_u_i_1ab62d08d04f9d6dcacdb372139b8fb54c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Rect</type>
+        <definition>Rect RagePixelPaletteGUI.bounds</definition>
+        <argsstring></argsstring>
+        <name>bounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="24" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_palette_g_u_i_1aa40221c3ad2cadae955d2bdd95f29f7f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int RagePixelPaletteGUI.maxWidth</definition>
+        <argsstring></argsstring>
+        <name>maxWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="42" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_palette_g_u_i_1a105a4eb8dbcce1f3dd215153c267de2e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelPaletteGUI.paletteTexture</definition>
+        <argsstring></argsstring>
+        <name>paletteTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="59" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_palette_g_u_i_1ae8fb6f7c1ede70af961b2ce57b60130f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int RagePixelPaletteGUI.currentIndex</definition>
+        <argsstring></argsstring>
+        <name>currentIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="77" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_palette_g_u_i_1aaddabed2d50166bf749faf9aac7d3e40" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int RagePixelPaletteGUI.thumbnailSize</definition>
+        <argsstring></argsstring>
+        <name>thumbnailSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="85" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_palette_g_u_i_1aa12ddd23862f1b9d7af7402eab0c7036" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int RagePixelPaletteGUI.tableWidth</definition>
+        <argsstring></argsstring>
+        <name>tableWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="93" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_palette_g_u_i_1a815370f7feec8d2189f810184abe06f0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int RagePixelPaletteGUI.tableHeight</definition>
+        <argsstring></argsstring>
+        <name>tableHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="101" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_palette_g_u_i_1ae68187c5e3610a10ac557affd7a8bae2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int RagePixelPaletteGUI.pixelWidth</definition>
+        <argsstring></argsstring>
+        <name>pixelWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="115" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_palette_g_u_i_1a56a4ec5d5849928c0c9ee1f46e5b276a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int RagePixelPaletteGUI.pixelHeight</definition>
+        <argsstring></argsstring>
+        <name>pixelHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="129" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_palette_g_u_i_1a2bb18bcea780d730cf2468e155c56a15" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Color[]</type>
+        <definition>Color [] RagePixelPaletteGUI.palette</definition>
+        <argsstring></argsstring>
+        <name>palette</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="141" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_palette_g_u_i_1a7ef66d128ac0433e5a0d67cbd950a3e5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelPaletteGUI._maxWidth</definition>
+        <argsstring></argsstring>
+        <name>_maxWidth</name>
+        <initializer> 128</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="26" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_palette_g_u_i_1a95c2627b64905bf7b1d036309b3d66a6" prot="private" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelPaletteGUI._paletteTexture</definition>
+        <argsstring></argsstring>
+        <name>_paletteTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="44" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_palette_g_u_i_1af76b99870a0bffa5e78f7db6926b7534" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelPaletteGUI._currentIndex</definition>
+        <argsstring></argsstring>
+        <name>_currentIndex</name>
+        <initializer> -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="61" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_palette_g_u_i_1a630de5ea717a5e2ef4b7ac296201e754" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelPaletteGUI._pixelWidth</definition>
+        <argsstring></argsstring>
+        <name>_pixelWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="103" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_palette_g_u_i_1afb636dfbd3aa3e0903706d53faf02bf5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelPaletteGUI._pixelHeight</definition>
+        <argsstring></argsstring>
+        <name>_pixelHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="117" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rage_pixel_palette_g_u_i_1aa772405ac36b555504bad63006362ab5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool RagePixelPaletteGUI.sizeIsDirty</definition>
+        <argsstring>(int width)</argsstring>
+        <name>sizeIsDirty</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="144" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="143" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_palette_g_u_i_1a504df75701c92a8a53010174e7d38d22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelPaletteGUI.CreateTextureInstance</definition>
+        <argsstring>()</argsstring>
+        <name>CreateTextureInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="151" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="150" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_palette_g_u_i_1a43a24c026593a2df508c8bd76c992e59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelPaletteGUI.Refresh</definition>
+        <argsstring>()</argsstring>
+        <name>Refresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="188" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="187" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_palette_g_u_i_1a33af233c7792762f72b8398deaf57b64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color[]</type>
+        <definition>Color [] RagePixelPaletteGUI.getPreviewImage</definition>
+        <argsstring>(Color color, int sizeX, int sizeY, Color borderColor, bool selected)</argsstring>
+        <name>getPreviewImage</name>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sizeX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sizeY</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>borderColor</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="281" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="280" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_palette_g_u_i_1aab93b97a8084ab1d6d917482c66dddae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool RagePixelPaletteGUI.HandleGUIEvent</definition>
+        <argsstring>(Event ev)</argsstring>
+        <name>HandleGUIEvent</name>
+        <param>
+          <type>Event</type>
+          <declname>ev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="314" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="313" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_palette_g_u_i_1ac7442b782b6cf6bc3db286abc0832ce5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelPaletteGUI.MoveColor</definition>
+        <argsstring>(int fromIndex, int toIndex)</argsstring>
+        <name>MoveColor</name>
+        <param>
+          <type>int</type>
+          <declname>fromIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>toIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="386" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="385" bodyend="412"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_palette_g_u_i_1a3fcb4a679e11b97f2d0a2e5a6f78fa19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelPaletteGUI.RemoveColor</definition>
+        <argsstring>(int fromIndex, int toIndex)</argsstring>
+        <name>RemoveColor</name>
+        <param>
+          <type>int</type>
+          <declname>fromIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>toIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="415" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="414" bodyend="441"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_palette_g_u_i_1ac576065f7696a63f188e059b94c222a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelPaletteGUI.RemoveColor</definition>
+        <argsstring>(int index)</argsstring>
+        <name>RemoveColor</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="444" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="443" bodyend="463"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_palette_g_u_i_1ad2452768d3b5e06a73612a85bfcdb1e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelPaletteGUI.SelectColor</definition>
+        <argsstring>(Color newColor)</argsstring>
+        <name>SelectColor</name>
+        <param>
+          <type>Color</type>
+          <declname>newColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="466" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="465" bodyend="481"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_palette_g_u_i_1ac1b2456c0ab3d859b6f235b5813ff36b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelPaletteGUI.AddColor</definition>
+        <argsstring>(Color newColor)</argsstring>
+        <name>AddColor</name>
+        <param>
+          <type>Color</type>
+          <declname>newColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="484" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="483" bodyend="513"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_palette_g_u_i_1a2491856b0b6baeecd3d877e6df6e02fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelPaletteGUI.CleanExit</definition>
+        <argsstring>()</argsstring>
+        <name>CleanExit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="516" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="515" bodyend="518"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_rage_pixel_palette_g_u_i_1a297fc4dc7b2b8784fd79902baab8c25d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int RagePixelPaletteGUI.GetRowIndex</definition>
+        <argsstring>(int localX, int localY)</argsstring>
+        <name>GetRowIndex</name>
+        <param>
+          <type>int</type>
+          <declname>localX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>localY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="304" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="303" bodyend="311"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" line="6" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelPaletteGUI.cs" bodystart="5" bodyend="519"/>
+    <listofallmembers>
+      <member refid="class_rage_pixel_palette_g_u_i_1af76b99870a0bffa5e78f7db6926b7534" prot="private" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>_currentIndex</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1a7ef66d128ac0433e5a0d67cbd950a3e5" prot="private" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>_maxWidth</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1a95c2627b64905bf7b1d036309b3d66a6" prot="private" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>_paletteTexture</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1afb636dfbd3aa3e0903706d53faf02bf5" prot="private" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>_pixelHeight</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1a630de5ea717a5e2ef4b7ac296201e754" prot="private" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>_pixelWidth</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1ac1b2456c0ab3d859b6f235b5813ff36b" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>AddColor</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1acc2415e0840f9dfc4a97a62c2d39d368" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>animStripIsDirty</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1a45f49ebe26add1ebd099b248d4803d76" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>backgroundColor</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1ab62d08d04f9d6dcacdb372139b8fb54c" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>bounds</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1a2491856b0b6baeecd3d877e6df6e02fc" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>CleanExit</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1a504df75701c92a8a53010174e7d38d22" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>CreateTextureInstance</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1ae8fb6f7c1ede70af961b2ce57b60130f" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>currentIndex</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1a184f3c0d063067fc4bb48d62a1e53617" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>dragTargetIndex</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1a33af233c7792762f72b8398deaf57b64" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>getPreviewImage</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1a297fc4dc7b2b8784fd79902baab8c25d" prot="private" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>GetRowIndex</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1aab93b97a8084ab1d6d917482c66dddae" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>HandleGUIEvent</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1a43bf5e9f3ebd8c8a056567d6f4b84363" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>isDirty</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1aa40221c3ad2cadae955d2bdd95f29f7f" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>maxWidth</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1ac7442b782b6cf6bc3db286abc0832ce5" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>MoveColor</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1a2bb18bcea780d730cf2468e155c56a15" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>palette</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1a105a4eb8dbcce1f3dd215153c267de2e" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>paletteTexture</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1a56a4ec5d5849928c0c9ee1f46e5b276a" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>pixelHeight</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1ae68187c5e3610a10ac557affd7a8bae2" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>pixelWidth</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1a4e6c904351cd4f8d4046604fff20cd8e" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>positionX</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1a1e40e740099a282a3a85497db43c847f" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>positionY</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1a43a24c026593a2df508c8bd76c992e59" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>Refresh</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1a3fcb4a679e11b97f2d0a2e5a6f78fa19" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>RemoveColor</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1ac576065f7696a63f188e059b94c222a5" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>RemoveColor</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1ad2452768d3b5e06a73612a85bfcdb1e9" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>SelectColor</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1aa772405ac36b555504bad63006362ab5" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>sizeIsDirty</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1a815370f7feec8d2189f810184abe06f0" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>tableHeight</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1aa12ddd23862f1b9d7af7402eab0c7036" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>tableWidth</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1aaddabed2d50166bf749faf9aac7d3e40" prot="private" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>thumbnailSize</name></member>
+      <member refid="class_rage_pixel_palette_g_u_i_1afe5ead633e26af1e9b5d37de476cd60c" prot="public" virt="non-virtual"><scope>RagePixelPaletteGUI</scope><name>visible</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

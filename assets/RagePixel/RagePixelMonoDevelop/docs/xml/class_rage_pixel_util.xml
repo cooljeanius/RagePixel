@@ -1,0 +1,593 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_rage_pixel_util" kind="class" prot="public">
+    <compoundname>RagePixelUtil</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_util_1a2877309f7f70319ebaea34023a1a2576" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string RagePixelUtil.assetDatabaseDirSeparatorChar</definition>
+        <argsstring></argsstring>
+        <name>assetDatabaseDirSeparatorChar</name>
+        <initializer>&quot;/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="11" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_util_1a5fe9d0bc985d81e95d3e2c49fd32fd93" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_rage_pixel_settings" kindref="compound">RagePixelSettings</ref></type>
+        <definition>RagePixelSettings RagePixelUtil._ragePixelSettings</definition>
+        <argsstring></argsstring>
+        <name>_ragePixelSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="20" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_util_1a9a65afb6ed9441dade46291722296e26" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string RagePixelUtil.defaultSpriteSheetName</definition>
+        <argsstring></argsstring>
+        <name>defaultSpriteSheetName</name>
+        <initializer>&quot;spritesheet&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="12" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_util_1a9dea4ce330b771b3ddb363097d83d819" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string RagePixelUtil.defaultSpritesheetPath</definition>
+        <argsstring></argsstring>
+        <name>defaultSpritesheetPath</name>
+        <initializer>&quot;RagePixelAssets&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="13" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_util_1a9ea02dd9ba1afe8921cd962bb19518f5" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string RagePixelUtil.defaultAtlasPath</definition>
+        <argsstring></argsstring>
+        <name>defaultAtlasPath</name>
+        <initializer>&quot;RagePixelAssets&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="14" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_util_1a572b0e83b804e49905ca0c1d6d24b5bc" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string RagePixelUtil.defaultSettingsPath</definition>
+        <argsstring></argsstring>
+        <name>defaultSettingsPath</name>
+        <initializer>&quot;RagePixelSettings&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="15" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_util_1a1724fb11b3d0f89e8670ecd3c87455ce" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string RagePixelUtil.defaultSettingsName</definition>
+        <argsstring></argsstring>
+        <name>defaultSettingsName</name>
+        <initializer>&quot;ragepixelsettings&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="16" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_util_1a12dae146bf5be15a1650fe005fc07a80" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelUtil.defaultAtlasSize</definition>
+        <argsstring></argsstring>
+        <name>defaultAtlasSize</name>
+        <initializer> 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="17" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_util_1ae2c1d02df3347369e076119d6c163cf7" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelUtil.defaultAtlasPadding</definition>
+        <argsstring></argsstring>
+        <name>defaultAtlasPadding</name>
+        <initializer> 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="18" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_util_1a0bf4022d8de62b57d7a7aa1800614b45" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelUtil.defaultSpriteSize</definition>
+        <argsstring></argsstring>
+        <name>defaultSpriteSize</name>
+        <initializer> 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="19" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_rage_pixel_util_1a12743569d8d3e508c96ec1b474dbeb16" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_rage_pixel_settings" kindref="compound">RagePixelSettings</ref></type>
+        <definition>RagePixelSettings RagePixelUtil.Settings</definition>
+        <argsstring></argsstring>
+        <name>Settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="123" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_util_1a8ddea9a05721677fd52357ea6f5e9f86" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; Object &gt;</type>
+        <definition>List&lt;Object&gt; RagePixelUtil.allAssets</definition>
+        <argsstring></argsstring>
+        <name>allAssets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="420" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="405" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_rage_pixel_util_1ab3d1503a07351fd09abb8bcd9f18437e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RagePixelUtil.CreateRagePixelSpritesheet</definition>
+        <argsstring>()</argsstring>
+        <name>CreateRagePixelSpritesheet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="24" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_util_1a49daeffeff16863faa2d64981f385f78" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RagePixelUtil.CreateRagePixelSprite</definition>
+        <argsstring>()</argsstring>
+        <name>CreateRagePixelSprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="30" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="29" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_rage_pixel_util_1ab8360b0953c5d686f3cb5c00e8b1c665" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int RagePixelUtil.RandomKey</definition>
+        <argsstring>()</argsstring>
+        <name>RandomKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="126" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="125" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_util_1a621d80119ae82ec1acb46c94cce62886" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_rage_pixel_sprite_sheet" kindref="compound">RagePixelSpriteSheet</ref></type>
+        <definition>static RagePixelSpriteSheet RagePixelUtil.CreateNewSpritesheet</definition>
+        <argsstring>()</argsstring>
+        <name>CreateNewSpritesheet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="136" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="135" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_util_1a38ec96b52d942423b9d8e7df67bcf450" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Material</type>
+        <definition>static Material RagePixelUtil.CreateNewAtlas</definition>
+        <argsstring>(int size, string name)</argsstring>
+        <name>CreateNewAtlas</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="170" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="169" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_util_1aeabb621128ef596b688f240d3c1380d3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RagePixelUtil.saveAtlasPng</definition>
+        <argsstring>(string path, string name, Texture2D tex)</argsstring>
+        <name>saveAtlasPng</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Texture2D</type>
+          <declname>tex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="207" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="206" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_util_1aa9c3adce000cbd6eb6f363200d8eb390" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RagePixelUtil.CopyPixels</definition>
+        <argsstring>(Texture2D sourceTexture, Rect sourceUV, Texture2D targetTexture, Rect targetUV)</argsstring>
+        <name>CopyPixels</name>
+        <param>
+          <type>Texture2D</type>
+          <declname>sourceTexture</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>sourceUV</declname>
+        </param>
+        <param>
+          <type>Texture2D</type>
+          <declname>targetTexture</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>targetUV</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="246" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="245" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_util_1a1a1b6bf79e48a480bc1594698398662b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RagePixelUtil.RebuildAtlas</definition>
+        <argsstring>(RagePixelSpriteSheet spriteSheet, bool atlasIsGrowing, string caller=&quot;nobody&quot;)</argsstring>
+        <name>RebuildAtlas</name>
+        <param>
+          <type><ref refid="class_rage_pixel_sprite_sheet" kindref="compound">RagePixelSpriteSheet</ref></type>
+          <declname>spriteSheet</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>atlasIsGrowing</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>caller</declname>
+          <defval>&quot;nobody&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="289" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="288" bodyend="393"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_util_1af7b9ea7c391d802141dd228f622a3534" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RagePixelUtil.SaveSpritesheetTextureToDisk</definition>
+        <argsstring>(RagePixelSpriteSheet spriteSheet)</argsstring>
+        <name>SaveSpritesheetTextureToDisk</name>
+        <param>
+          <type><ref refid="class_rage_pixel_sprite_sheet" kindref="compound">RagePixelSpriteSheet</ref></type>
+          <declname>spriteSheet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="396" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="395" bodyend="402"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_util_1a0299a76f5db7e12ff5b15d34b35f0583" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string RagePixelUtil.fixSlashes</definition>
+        <argsstring>(string s)</argsstring>
+        <name>fixSlashes</name>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="423" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="422" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_util_1ae50ab5ff91a37b45f1a575472a1baf4b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string RagePixelUtil.getRelativeAssetPath</definition>
+        <argsstring>(string pathName)</argsstring>
+        <name>getRelativeAssetPath</name>
+        <param>
+          <type>string</type>
+          <declname>pathName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="430" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="429" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_util_1abecd4ff636d64852a11b7064b8a8ba45" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; FileInfo &gt;</type>
+        <definition>static List&lt;FileInfo&gt; RagePixelUtil.DirSearch</definition>
+        <argsstring>(DirectoryInfo d, string searchFor)</argsstring>
+        <name>DirSearch</name>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>searchFor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="435" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="434" bodyend="443"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_util_1aa439ed5fdf4b0900bc2def40bc43f9f0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RagePixelUtil.drawPixelBorder</definition>
+        <argsstring>(Texture2D tex, Color color)</argsstring>
+        <name>drawPixelBorder</name>
+        <param>
+          <type>Texture2D</type>
+          <declname>tex</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="446" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="445" bodyend="457"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_util_1abd03b85be60ca290594ec7303e7cf91e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RagePixelUtil.drawPixelBorder</definition>
+        <argsstring>(int x, int y, int width, int height, Texture2D tex, Color color)</argsstring>
+        <name>drawPixelBorder</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>Texture2D</type>
+          <declname>tex</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="460" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="459" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_util_1a8f91edd3040b72947cc112c0026b76eb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RagePixelUtil.clearPixels</definition>
+        <argsstring>(Texture2D targetTexture, Rect targetUV)</argsstring>
+        <name>clearPixels</name>
+        <param>
+          <type>Texture2D</type>
+          <declname>targetTexture</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>targetUV</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="475" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="474" bodyend="484"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_util_1a5fe607b59486087c33883b54649adf16" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RagePixelUtil.clearPixels</definition>
+        <argsstring>(Texture2D tex)</argsstring>
+        <name>clearPixels</name>
+        <param>
+          <type>Texture2D</type>
+          <declname>tex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="487" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="486" bodyend="490"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_util_1a108027408c7b3aae1081832837535f12" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RagePixelUtil.ResetCamera</definition>
+        <argsstring>(RagePixelCamera ragePixelCamera)</argsstring>
+        <name>ResetCamera</name>
+        <param>
+          <type><ref refid="class_rage_pixel_camera" kindref="compound">RagePixelCamera</ref></type>
+          <declname>ragePixelCamera</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="493" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="492" bodyend="513"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_util_1addbe609a797365786c9495bd357455f3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RagePixelUtil.ImportRowFromSheetTexture</definition>
+        <argsstring>(RagePixelSpriteSheet spritesheet, RagePixelRow destRow, Texture2D tex, int importSpriteWidth, int importSpriteHeight, bool importSpriteTopLeft)</argsstring>
+        <name>ImportRowFromSheetTexture</name>
+        <param>
+          <type><ref refid="class_rage_pixel_sprite_sheet" kindref="compound">RagePixelSpriteSheet</ref></type>
+          <declname>spritesheet</declname>
+        </param>
+        <param>
+          <type><ref refid="class_rage_pixel_row" kindref="compound">RagePixelRow</ref></type>
+          <declname>destRow</declname>
+        </param>
+        <param>
+          <type>Texture2D</type>
+          <declname>tex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>importSpriteWidth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>importSpriteHeight</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>importSpriteTopLeft</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="522" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="515" bodyend="546"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" line="9" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelUtil.cs" bodystart="8" bodyend="549"/>
+    <listofallmembers>
+      <member refid="class_rage_pixel_util_1a5fe9d0bc985d81e95d3e2c49fd32fd93" prot="private" virt="non-virtual"><scope>RagePixelUtil</scope><name>_ragePixelSettings</name></member>
+      <member refid="class_rage_pixel_util_1a8ddea9a05721677fd52357ea6f5e9f86" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>allAssets</name></member>
+      <member refid="class_rage_pixel_util_1a2877309f7f70319ebaea34023a1a2576" prot="private" virt="non-virtual"><scope>RagePixelUtil</scope><name>assetDatabaseDirSeparatorChar</name></member>
+      <member refid="class_rage_pixel_util_1a8f91edd3040b72947cc112c0026b76eb" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>clearPixels</name></member>
+      <member refid="class_rage_pixel_util_1a5fe607b59486087c33883b54649adf16" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>clearPixels</name></member>
+      <member refid="class_rage_pixel_util_1aa9c3adce000cbd6eb6f363200d8eb390" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>CopyPixels</name></member>
+      <member refid="class_rage_pixel_util_1a38ec96b52d942423b9d8e7df67bcf450" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>CreateNewAtlas</name></member>
+      <member refid="class_rage_pixel_util_1a621d80119ae82ec1acb46c94cce62886" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>CreateNewSpritesheet</name></member>
+      <member refid="class_rage_pixel_util_1a49daeffeff16863faa2d64981f385f78" prot="private" virt="non-virtual"><scope>RagePixelUtil</scope><name>CreateRagePixelSprite</name></member>
+      <member refid="class_rage_pixel_util_1ab3d1503a07351fd09abb8bcd9f18437e" prot="private" virt="non-virtual"><scope>RagePixelUtil</scope><name>CreateRagePixelSpritesheet</name></member>
+      <member refid="class_rage_pixel_util_1ae2c1d02df3347369e076119d6c163cf7" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>defaultAtlasPadding</name></member>
+      <member refid="class_rage_pixel_util_1a9ea02dd9ba1afe8921cd962bb19518f5" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>defaultAtlasPath</name></member>
+      <member refid="class_rage_pixel_util_1a12dae146bf5be15a1650fe005fc07a80" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>defaultAtlasSize</name></member>
+      <member refid="class_rage_pixel_util_1a1724fb11b3d0f89e8670ecd3c87455ce" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>defaultSettingsName</name></member>
+      <member refid="class_rage_pixel_util_1a572b0e83b804e49905ca0c1d6d24b5bc" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>defaultSettingsPath</name></member>
+      <member refid="class_rage_pixel_util_1a9a65afb6ed9441dade46291722296e26" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>defaultSpriteSheetName</name></member>
+      <member refid="class_rage_pixel_util_1a9dea4ce330b771b3ddb363097d83d819" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>defaultSpritesheetPath</name></member>
+      <member refid="class_rage_pixel_util_1a0bf4022d8de62b57d7a7aa1800614b45" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>defaultSpriteSize</name></member>
+      <member refid="class_rage_pixel_util_1abecd4ff636d64852a11b7064b8a8ba45" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>DirSearch</name></member>
+      <member refid="class_rage_pixel_util_1aa439ed5fdf4b0900bc2def40bc43f9f0" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>drawPixelBorder</name></member>
+      <member refid="class_rage_pixel_util_1abd03b85be60ca290594ec7303e7cf91e" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>drawPixelBorder</name></member>
+      <member refid="class_rage_pixel_util_1a0299a76f5db7e12ff5b15d34b35f0583" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>fixSlashes</name></member>
+      <member refid="class_rage_pixel_util_1ae50ab5ff91a37b45f1a575472a1baf4b" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>getRelativeAssetPath</name></member>
+      <member refid="class_rage_pixel_util_1addbe609a797365786c9495bd357455f3" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>ImportRowFromSheetTexture</name></member>
+      <member refid="class_rage_pixel_util_1ab8360b0953c5d686f3cb5c00e8b1c665" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>RandomKey</name></member>
+      <member refid="class_rage_pixel_util_1a1a1b6bf79e48a480bc1594698398662b" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>RebuildAtlas</name></member>
+      <member refid="class_rage_pixel_util_1a108027408c7b3aae1081832837535f12" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>ResetCamera</name></member>
+      <member refid="class_rage_pixel_util_1aeabb621128ef596b688f240d3c1380d3" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>saveAtlasPng</name></member>
+      <member refid="class_rage_pixel_util_1af7b9ea7c391d802141dd228f622a3534" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>SaveSpritesheetTextureToDisk</name></member>
+      <member refid="class_rage_pixel_util_1a12743569d8d3e508c96ec1b474dbeb16" prot="public" virt="non-virtual"><scope>RagePixelUtil</scope><name>Settings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

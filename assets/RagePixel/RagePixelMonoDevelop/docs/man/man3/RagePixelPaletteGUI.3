@@ -1,0 +1,121 @@
+.TH "RagePixelPaletteGUI" 3 "Tue May 8 2012" "RagePixel" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+RagePixelPaletteGUI \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "bool \fBsizeIsDirty\fP (int width)"
+.br
+.ti -1c
+.RI "void \fBCreateTextureInstance\fP ()"
+.br
+.ti -1c
+.RI "void \fBRefresh\fP ()"
+.br
+.ti -1c
+.RI "Color[] \fBgetPreviewImage\fP (Color color, int sizeX, int sizeY, Color borderColor, bool selected)"
+.br
+.ti -1c
+.RI "bool \fBHandleGUIEvent\fP (Event ev)"
+.br
+.ti -1c
+.RI "void \fBMoveColor\fP (int fromIndex, int toIndex)"
+.br
+.ti -1c
+.RI "void \fBRemoveColor\fP (int fromIndex, int toIndex)"
+.br
+.ti -1c
+.RI "void \fBRemoveColor\fP (int index)"
+.br
+.ti -1c
+.RI "void \fBSelectColor\fP (Color newColor)"
+.br
+.ti -1c
+.RI "void \fBAddColor\fP (Color newColor)"
+.br
+.ti -1c
+.RI "void \fBCleanExit\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "bool \fBvisible\fP = false"
+.br
+.ti -1c
+.RI "Color \fBbackgroundColor\fP"
+.br
+.ti -1c
+.RI "bool \fBanimStripIsDirty\fP = false"
+.br
+.ti -1c
+.RI "bool \fBisDirty\fP = false"
+.br
+.ti -1c
+.RI "int \fBdragTargetIndex\fP = -1"
+.br
+.ti -1c
+.RI "int \fBpositionX\fP"
+.br
+.ti -1c
+.RI "int \fBpositionY\fP"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "Rect \fBbounds\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "int \fBmaxWidth\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "Texture2D \fBpaletteTexture\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "int \fBcurrentIndex\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "int \fBtableWidth\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "int \fBtableHeight\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "int \fBpixelWidth\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "int \fBpixelHeight\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "Color[] \fBpalette\fP\fC [get, set]\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 5 of file RagePixelPaletteGUI\&.cs\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "Color RagePixelPaletteGUI\&.backgroundColor"
+\fBInitial value:\fP
+.PP
+.nf
+
+                (PlayerSettings\&.advancedLicense) ?
+                new Color(0f, 0f, 0f, 0f) :
+                new Color(0f, 0f, 0f, 0f)
+.fi
+.PP
+Definition at line 8 of file RagePixelPaletteGUI\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RagePixel from the source code\&.

@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_rage_pixel_camera" kind="class" prot="public">
+    <compoundname>RagePixelCamera</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_camera_1af8bd4b43ad183233d5bcd3fbdc229e7e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelCamera.pixelSize</definition>
+        <argsstring></argsstring>
+        <name>pixelSize</name>
+        <initializer> 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" line="7" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_camera_1ae493f3e0bbb5e9deaeecdd3f48e0c254" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelCamera.resolutionPixelWidth</definition>
+        <argsstring></argsstring>
+        <name>resolutionPixelWidth</name>
+        <initializer> 1024</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" line="8" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_camera_1a4d759820269512aa281ee37f2337b3ea" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelCamera.resolutionPixelHeight</definition>
+        <argsstring></argsstring>
+        <name>resolutionPixelHeight</name>
+        <initializer> 768</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" line="9" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_camera_1ac7a3562612020282d5b1ec87fb7ba855" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RagePixelCamera.snapToIntegerPositions</definition>
+        <argsstring></argsstring>
+        <name>snapToIntegerPositions</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" line="10" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rage_pixel_camera_1a546631654240013c031169061b5f8315" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelCamera.SnapToIntegerPosition</definition>
+        <argsstring>()</argsstring>
+        <name>SnapToIntegerPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" line="13" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" bodystart="12" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_camera_1afebda17b96f07b838a6530c8d5bde0dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelCamera.OnPostRender</definition>
+        <argsstring>()</argsstring>
+        <name>OnPostRender</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" line="31" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_camera_1a86a72a6ec06252c45ca05489b83099d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelCamera.OnDrawGizmosSelected</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmosSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" line="41" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_camera_1af05dd97ff4845ed6d3b0884b2828576c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelCamera.ResetCamera</definition>
+        <argsstring>()</argsstring>
+        <name>ResetCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" line="46" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_rage_pixel_camera_1a8aa9fc385f4bf40b4b9c9755f7321b7b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelCamera.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" line="21" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_camera_1a139bcd80d9abe84e7b2ca25dffcdba17" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelCamera.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" line="26" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_camera_1a9edc248843f5e90fce2dd9d87b3ce8f6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelCamera.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" line="36" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" line="5" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCamera.cs" bodystart="5" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_rage_pixel_camera_1a8aa9fc385f4bf40b4b9c9755f7321b7b" prot="private" virt="non-virtual"><scope>RagePixelCamera</scope><name>Awake</name></member>
+      <member refid="class_rage_pixel_camera_1a86a72a6ec06252c45ca05489b83099d9" prot="public" virt="non-virtual"><scope>RagePixelCamera</scope><name>OnDrawGizmosSelected</name></member>
+      <member refid="class_rage_pixel_camera_1afebda17b96f07b838a6530c8d5bde0dc" prot="public" virt="non-virtual"><scope>RagePixelCamera</scope><name>OnPostRender</name></member>
+      <member refid="class_rage_pixel_camera_1af8bd4b43ad183233d5bcd3fbdc229e7e" prot="public" virt="non-virtual"><scope>RagePixelCamera</scope><name>pixelSize</name></member>
+      <member refid="class_rage_pixel_camera_1af05dd97ff4845ed6d3b0884b2828576c" prot="public" virt="non-virtual"><scope>RagePixelCamera</scope><name>ResetCamera</name></member>
+      <member refid="class_rage_pixel_camera_1a4d759820269512aa281ee37f2337b3ea" prot="public" virt="non-virtual"><scope>RagePixelCamera</scope><name>resolutionPixelHeight</name></member>
+      <member refid="class_rage_pixel_camera_1ae493f3e0bbb5e9deaeecdd3f48e0c254" prot="public" virt="non-virtual"><scope>RagePixelCamera</scope><name>resolutionPixelWidth</name></member>
+      <member refid="class_rage_pixel_camera_1a546631654240013c031169061b5f8315" prot="public" virt="non-virtual"><scope>RagePixelCamera</scope><name>SnapToIntegerPosition</name></member>
+      <member refid="class_rage_pixel_camera_1ac7a3562612020282d5b1ec87fb7ba855" prot="public" virt="non-virtual"><scope>RagePixelCamera</scope><name>snapToIntegerPositions</name></member>
+      <member refid="class_rage_pixel_camera_1a139bcd80d9abe84e7b2ca25dffcdba17" prot="private" virt="non-virtual"><scope>RagePixelCamera</scope><name>Start</name></member>
+      <member refid="class_rage_pixel_camera_1a9edc248843f5e90fce2dd9d87b3ce8f6" prot="private" virt="non-virtual"><scope>RagePixelCamera</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="dir_b2a888ed8853c913e323cf9aed46dd86" kind="dir">
+    <compoundname>assets/RagePixel/RagePixelMonoDevelop/</compoundname>
+    <innerdir refid="dir_2f3f2dabbdbffc5e8a94e3384422b8d5">assets/RagePixel/RagePixelMonoDevelop/code/</innerdir>
+    <innerdir refid="dir_13ded140ac0b414c43185631570c2cea">assets/RagePixel/RagePixelMonoDevelop/editor/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/"/>
+  </compounddef>
+</doxygen>

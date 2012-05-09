@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_rage_pixel_color_picker_g_u_i" kind="class" prot="public">
+    <compoundname>RagePixelColorPickerGUI</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_rage_pixel_color_picker_g_u_i_1a5f956739e19a1f7d7dc1f9f83d4568ac" prot="public" static="no">
+        <name>GUIArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="22" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="21" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_color_picker_g_u_i_1a89a134bc62e2bcfd6a196964a78dabe6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RagePixelColorPickerGUI.visible</definition>
+        <argsstring></argsstring>
+        <name>visible</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="7" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_color_picker_g_u_i_1a39ca335900f4c45df14c406d0232471d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RagePixelColorPickerGUI.gizmoVisible</definition>
+        <argsstring></argsstring>
+        <name>gizmoVisible</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="8" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_color_picker_g_u_i_1a5d9f87f4934ac2dee5464ee7fc602ab0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RagePixelColorPickerGUI.isDirty</definition>
+        <argsstring></argsstring>
+        <name>isDirty</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="9" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_color_picker_g_u_i_1a32fec02c4d48157a9613c598997ccde6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelColorPickerGUI.gizmoPositionX</definition>
+        <argsstring></argsstring>
+        <name>gizmoPositionX</name>
+        <initializer> 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="10" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_color_picker_g_u_i_1ada36d0609b0db54c27e5d34a89b9622d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelColorPickerGUI.gizmoPositionY</definition>
+        <argsstring></argsstring>
+        <name>gizmoPositionY</name>
+        <initializer> 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="11" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_color_picker_g_u_i_1af0aeb342631c91f13ae54bb6dc41e90d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelColorPickerGUI.gizmoPixelWidth</definition>
+        <argsstring></argsstring>
+        <name>gizmoPixelWidth</name>
+        <initializer> 32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="12" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_color_picker_g_u_i_1a6a0c20fdd4b6be1b5cf40184762270b3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelColorPickerGUI.gizmoPixelHeight</definition>
+        <argsstring></argsstring>
+        <name>gizmoPixelHeight</name>
+        <initializer> 32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="13" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_color_picker_g_u_i_1ace8b0921ae40edee01306898cce0d35d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelColorPickerGUI.positionX</definition>
+        <argsstring></argsstring>
+        <name>positionX</name>
+        <initializer> 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="14" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_color_picker_g_u_i_1a4be14134a0356f96c65714d0a666646e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelColorPickerGUI.positionY</definition>
+        <argsstring></argsstring>
+        <name>positionY</name>
+        <initializer> 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="15" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_color_picker_g_u_i_1ab051690337e0407eba9456e24ce43d4d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelColorPickerGUI.pixelWidth</definition>
+        <argsstring></argsstring>
+        <name>pixelWidth</name>
+        <initializer> 128</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="16" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_color_picker_g_u_i_1a58ecf2fb1502cff68dc9a946c4fc7a55" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelColorPickerGUI.pixelHeight</definition>
+        <argsstring></argsstring>
+        <name>pixelHeight</name>
+        <initializer> 128</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="17" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_color_picker_g_u_i_1ac6abe7204cf9ad3ab7a2744957f678c6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelColorPickerGUI.splitSize</definition>
+        <argsstring></argsstring>
+        <name>splitSize</name>
+        <initializer> 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="18" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_color_picker_g_u_i_1aaa39eb082c00d0255be75753d2434e59" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelColorPickerGUI.marginSize</definition>
+        <argsstring></argsstring>
+        <name>marginSize</name>
+        <initializer> 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="19" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_color_picker_g_u_i_1a5700eba6ffcd527de9091c1e07eaa14c" prot="public" static="no" mutable="no">
+        <type>GUIArea</type>
+        <definition>GUIArea RagePixelColorPickerGUI.activeArea</definition>
+        <argsstring></argsstring>
+        <name>activeArea</name>
+        <initializer> GUIArea.None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="28" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_color_picker_g_u_i_1a23c9fa90882da454d79a7b2c6d24682d" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color RagePixelColorPickerGUI._selectedColor</definition>
+        <argsstring></argsstring>
+        <name>_selectedColor</name>
+        <initializer> new Color(0.9f, 0.5f, 0f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="29" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_color_picker_g_u_i_1ad28f9ebcce8617149351212097f88cb0" prot="private" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelColorPickerGUI._colorPickerTexture</definition>
+        <argsstring></argsstring>
+        <name>_colorPickerTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="63" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_color_picker_g_u_i_1adfde75711f44052187e5f88f19748440" prot="private" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelColorPickerGUI._colorGizmoTexture</definition>
+        <argsstring></argsstring>
+        <name>_colorGizmoTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="83" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_rage_pixel_color_picker_g_u_i_1ab9136fb7b16dea9346dd9af28e1906e9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Rect</type>
+        <definition>Rect RagePixelColorPickerGUI.gizmoBounds</definition>
+        <argsstring></argsstring>
+        <name>gizmoBounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="37" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_color_picker_g_u_i_1ab07f46366b7393742c1a8d982b5432a3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Rect</type>
+        <definition>Rect RagePixelColorPickerGUI.bounds</definition>
+        <argsstring></argsstring>
+        <name>bounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="45" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_color_picker_g_u_i_1a6babf56a41db6fbfe93612d7f75cc4ea" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Color</type>
+        <definition>Color RagePixelColorPickerGUI.selectedColor</definition>
+        <argsstring></argsstring>
+        <name>selectedColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="61" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_color_picker_g_u_i_1a1836eb93292f37b2f11b4179a02fa7f1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelColorPickerGUI.colorPickerTexture</definition>
+        <argsstring></argsstring>
+        <name>colorPickerTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="81" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_color_picker_g_u_i_1a5e872b0cf3cb0016bc71daa8e5257212" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelColorPickerGUI.colorGizmoTexture</definition>
+        <argsstring></argsstring>
+        <name>colorGizmoTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="101" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_rage_pixel_color_picker_g_u_i_1aa3582bc859d76be8f1d04969920e9bde" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelColorPickerGUI.CreateNewTextureInstance</definition>
+        <argsstring>()</argsstring>
+        <name>CreateNewTextureInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="104" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="103" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_color_picker_g_u_i_1a865b6aa7f4201c06ad8f310fe40405ab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelColorPickerGUI.renderColorGizmoTexture</definition>
+        <argsstring>(Texture2D texture)</argsstring>
+        <name>renderColorGizmoTexture</name>
+        <param>
+          <type>Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="208" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="207" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_color_picker_g_u_i_1a4221d18cd6e75a7d4274f84aabac55eb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelColorPickerGUI.renderColorPickerTexture</definition>
+        <argsstring>(Texture2D texture)</argsstring>
+        <name>renderColorPickerTexture</name>
+        <param>
+          <type>Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="233" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="232" bodyend="351"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rage_pixel_color_picker_g_u_i_1ae9ca7e4283c2afae196bcc6dcf4e6f11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelColorPickerGUI.Refresh</definition>
+        <argsstring>()</argsstring>
+        <name>Refresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="131" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="130" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_color_picker_g_u_i_1ac5828d1d7689c7d161691fc1407c349f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool RagePixelColorPickerGUI.HandleGUIEvent</definition>
+        <argsstring>(Event ev)</argsstring>
+        <name>HandleGUIEvent</name>
+        <param>
+          <type>Event</type>
+          <declname>ev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="137" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="136" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_color_picker_g_u_i_1ae1f8b700dce656eafd815b036e47f499" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelColorPickerGUI.CleanExit</definition>
+        <argsstring>()</argsstring>
+        <name>CleanExit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="354" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="353" bodyend="357"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" line="6" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelColorPickerGUI.cs" bodystart="5" bodyend="358"/>
+    <listofallmembers>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1adfde75711f44052187e5f88f19748440" prot="private" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>_colorGizmoTexture</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1ad28f9ebcce8617149351212097f88cb0" prot="private" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>_colorPickerTexture</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1a23c9fa90882da454d79a7b2c6d24682d" prot="private" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>_selectedColor</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1a5700eba6ffcd527de9091c1e07eaa14c" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>activeArea</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1ab07f46366b7393742c1a8d982b5432a3" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>bounds</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1ae1f8b700dce656eafd815b036e47f499" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>CleanExit</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1a5e872b0cf3cb0016bc71daa8e5257212" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>colorGizmoTexture</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1a1836eb93292f37b2f11b4179a02fa7f1" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>colorPickerTexture</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1aa3582bc859d76be8f1d04969920e9bde" prot="private" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>CreateNewTextureInstance</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1ab9136fb7b16dea9346dd9af28e1906e9" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>gizmoBounds</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1a6a0c20fdd4b6be1b5cf40184762270b3" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>gizmoPixelHeight</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1af0aeb342631c91f13ae54bb6dc41e90d" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>gizmoPixelWidth</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1a32fec02c4d48157a9613c598997ccde6" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>gizmoPositionX</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1ada36d0609b0db54c27e5d34a89b9622d" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>gizmoPositionY</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1a39ca335900f4c45df14c406d0232471d" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>gizmoVisible</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1a5f956739e19a1f7d7dc1f9f83d4568ac" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>GUIArea</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1ac5828d1d7689c7d161691fc1407c349f" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>HandleGUIEvent</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1a5d9f87f4934ac2dee5464ee7fc602ab0" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>isDirty</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1aaa39eb082c00d0255be75753d2434e59" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>marginSize</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1a58ecf2fb1502cff68dc9a946c4fc7a55" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>pixelHeight</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1ab051690337e0407eba9456e24ce43d4d" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>pixelWidth</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1ace8b0921ae40edee01306898cce0d35d" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>positionX</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1a4be14134a0356f96c65714d0a666646e" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>positionY</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1ae9ca7e4283c2afae196bcc6dcf4e6f11" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>Refresh</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1a865b6aa7f4201c06ad8f310fe40405ab" prot="private" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>renderColorGizmoTexture</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1a4221d18cd6e75a7d4274f84aabac55eb" prot="private" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>renderColorPickerTexture</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1a6babf56a41db6fbfe93612d7f75cc4ea" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>selectedColor</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1ac6abe7204cf9ad3ab7a2744957f678c6" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>splitSize</name></member>
+      <member refid="class_rage_pixel_color_picker_g_u_i_1a89a134bc62e2bcfd6a196964a78dabe6" prot="public" virt="non-virtual"><scope>RagePixelColorPickerGUI</scope><name>visible</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_rage_pixel_texel_rect" kind="class" prot="public">
+    <compoundname>RagePixelTexelRect</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_texel_rect_1ad061a84b88d709b1bcd0ef0763704694" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelTexelRect.X</definition>
+        <argsstring></argsstring>
+        <name>X</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTexelRect.cs" line="5" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTexelRect.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_texel_rect_1ac321c134d558ebc17ad162d290d73136" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelTexelRect.Y</definition>
+        <argsstring></argsstring>
+        <name>Y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTexelRect.cs" line="6" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTexelRect.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_texel_rect_1a12c4ee18b07fd45991a27ece7e0bb281" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelTexelRect.X2</definition>
+        <argsstring></argsstring>
+        <name>X2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTexelRect.cs" line="7" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTexelRect.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_texel_rect_1a62290bff83b7ecfcf9eb7c63b2fc32fc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelTexelRect.Y2</definition>
+        <argsstring></argsstring>
+        <name>Y2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTexelRect.cs" line="8" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTexelRect.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rage_pixel_texel_rect_1aaaabcd9971726c911634b47162c6bc48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RagePixelTexelRect.RagePixelTexelRect</definition>
+        <argsstring>()</argsstring>
+        <name>RagePixelTexelRect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTexelRect.cs" line="11" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTexelRect.cs" bodystart="10" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_texel_rect_1a15964564d0a89598087a18e5fa2aaf51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RagePixelTexelRect.RagePixelTexelRect</definition>
+        <argsstring>(int _x, int _y, int _x2, int _y2)</argsstring>
+        <name>RagePixelTexelRect</name>
+        <param>
+          <type>int</type>
+          <declname>_x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_x2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_y2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTexelRect.cs" line="17" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTexelRect.cs" bodystart="16" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_texel_rect_1ad50615c3ca864e47783a41156a805320" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int RagePixelTexelRect.Width</definition>
+        <argsstring>()</argsstring>
+        <name>Width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTexelRect.cs" line="42" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTexelRect.cs" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_texel_rect_1aa1367034c16ee326957b6ba6a16f169b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int RagePixelTexelRect.Height</definition>
+        <argsstring>()</argsstring>
+        <name>Height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTexelRect.cs" line="47" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTexelRect.cs" bodystart="46" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTexelRect.cs" line="4" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTexelRect.cs" bodystart="3" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_rage_pixel_texel_rect_1aa1367034c16ee326957b6ba6a16f169b" prot="public" virt="non-virtual"><scope>RagePixelTexelRect</scope><name>Height</name></member>
+      <member refid="class_rage_pixel_texel_rect_1aaaabcd9971726c911634b47162c6bc48" prot="public" virt="non-virtual"><scope>RagePixelTexelRect</scope><name>RagePixelTexelRect</name></member>
+      <member refid="class_rage_pixel_texel_rect_1a15964564d0a89598087a18e5fa2aaf51" prot="public" virt="non-virtual"><scope>RagePixelTexelRect</scope><name>RagePixelTexelRect</name></member>
+      <member refid="class_rage_pixel_texel_rect_1ad50615c3ca864e47783a41156a805320" prot="public" virt="non-virtual"><scope>RagePixelTexelRect</scope><name>Width</name></member>
+      <member refid="class_rage_pixel_texel_rect_1ad061a84b88d709b1bcd0ef0763704694" prot="public" virt="non-virtual"><scope>RagePixelTexelRect</scope><name>X</name></member>
+      <member refid="class_rage_pixel_texel_rect_1a12c4ee18b07fd45991a27ece7e0bb281" prot="public" virt="non-virtual"><scope>RagePixelTexelRect</scope><name>X2</name></member>
+      <member refid="class_rage_pixel_texel_rect_1ac321c134d558ebc17ad162d290d73136" prot="public" virt="non-virtual"><scope>RagePixelTexelRect</scope><name>Y</name></member>
+      <member refid="class_rage_pixel_texel_rect_1a62290bff83b7ecfcf9eb7c63b2fc32fc" prot="public" virt="non-virtual"><scope>RagePixelTexelRect</scope><name>Y2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

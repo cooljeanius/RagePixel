@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="dir_2f3f2dabbdbffc5e8a94e3384422b8d5" kind="dir">
+    <compoundname>assets/RagePixel/RagePixelMonoDevelop/code/</compoundname>
+    <innerfile refid="_i_rage_pixel_8cs">IRagePixel.cs</innerfile>
+    <innerfile refid="_rage_pixel_animation_8cs">RagePixelAnimation.cs</innerfile>
+    <innerfile refid="_rage_pixel_bitmap_8cs">RagePixelBitmap.cs</innerfile>
+    <innerfile refid="_rage_pixel_camera_8cs">RagePixelCamera.cs</innerfile>
+    <innerfile refid="_rage_pixel_cell_8cs">RagePixelCell.cs</innerfile>
+    <innerfile refid="_rage_pixel_row_8cs">RagePixelRow.cs</innerfile>
+    <innerfile refid="_rage_pixel_settings_8cs">RagePixelSettings.cs</innerfile>
+    <innerfile refid="_rage_pixel_sprite_8cs">RagePixelSprite.cs</innerfile>
+    <innerfile refid="_rage_pixel_sprite_sheet_8cs">RagePixelSpriteSheet.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,526 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_rage_pixel_sprite_sheet" kind="class" prot="public">
+    <compoundname>RagePixelSpriteSheet</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_sprite_sheet_1a802f55e0ff17565a85c4407c33c0099b" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material RagePixelSpriteSheet.atlas</definition>
+        <argsstring></argsstring>
+        <name>atlas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="8" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_sheet_1a1888bb9e536725e355e468b134683e30" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelSpriteSheet.thumbnailSize</definition>
+        <argsstring></argsstring>
+        <name>thumbnailSize</name>
+        <initializer> 40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="28" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_sprite_sheet_1a72f1ebb88b8a22f9819e5501985d32bf" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_row" kindref="compound">RagePixelRow</ref>[]</type>
+        <definition>RagePixelRow [] RagePixelSpriteSheet._rows</definition>
+        <argsstring></argsstring>
+        <name>_rows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="10" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_rage_pixel_sprite_sheet_1a3f5b1ca6150b8aa47a899cc36c1fd8da" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_rage_pixel_row" kindref="compound">RagePixelRow</ref>[]</type>
+        <definition>RagePixelRow [] RagePixelSpriteSheet.rows</definition>
+        <argsstring></argsstring>
+        <name>rows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="26" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_1a3085b28d0e238317cfcf7b9624f4b8ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_rage_pixel_row" kindref="compound">RagePixelRow</ref></type>
+        <definition>RagePixelRow RagePixelSpriteSheet.AddRow</definition>
+        <argsstring>(int key, int pixelSizeX, int pixelSizeY)</argsstring>
+        <name>AddRow</name>
+        <param>
+          <type>int</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pixelSizeX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pixelSizeY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="31" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="30" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_1a4f9d8ec6a99d9ae31d5974efd554039d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_rage_pixel_row" kindref="compound">RagePixelRow</ref></type>
+        <definition>RagePixelRow RagePixelSpriteSheet.AddRow</definition>
+        <argsstring>(int key, int index, int pixelSizeX, int pixelSizeY)</argsstring>
+        <name>AddRow</name>
+        <param>
+          <type>int</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pixelSizeX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pixelSizeY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="47" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="46" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_1aa241db4f20308246c2b70b059304755b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteSheet.MoveRow</definition>
+        <argsstring>(int fromIndex, int toIndex)</argsstring>
+        <name>MoveRow</name>
+        <param>
+          <type>int</type>
+          <declname>fromIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>toIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="80" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="79" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_1ab54e8274c3cd2a256b7b2befb680c3e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_rage_pixel_row" kindref="compound">RagePixelRow</ref></type>
+        <definition>RagePixelRow RagePixelSpriteSheet.GetRow</definition>
+        <argsstring>(int key)</argsstring>
+        <name>GetRow</name>
+        <param>
+          <type>int</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="109" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="108" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_1a500e37a0b7ba3f833f0f0c2c3207b3af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_rage_pixel_row" kindref="compound">RagePixelRow</ref></type>
+        <definition>RagePixelRow RagePixelSpriteSheet.GetRowByName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>GetRowByName</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="121" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="120" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_1a71e69ac7a2154b8a7808c157f1ae1f32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int RagePixelSpriteSheet.GetKey</definition>
+        <argsstring>(int index)</argsstring>
+        <name>GetKey</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="130" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="129" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_1aaf3851d67ec35485d84cbd940b2c04df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int RagePixelSpriteSheet.GetIndex</definition>
+        <argsstring>(int key)</argsstring>
+        <name>GetIndex</name>
+        <param>
+          <type>int</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="142" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="141" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_1a11300c3042982073e0a597262f821ca5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int RagePixelSpriteSheet.GetIndexByName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>GetIndexByName</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="158" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="157" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_1a14e0f896028db7cd3ba5f9b91296d9e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteSheet.RemoveRowByKey</definition>
+        <argsstring>(int key)</argsstring>
+        <name>RemoveRowByKey</name>
+        <param>
+          <type>int</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="174" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="173" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_1a6c9d468880df0f7a32bee1b68706472a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteSheet.RemoveRowByName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>RemoveRowByName</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="199" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="198" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_1a8c731ec816c2851f8fbd3ca4a8e7be9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteSheet.RemoveRowByIndex</definition>
+        <argsstring>(int index)</argsstring>
+        <name>RemoveRowByIndex</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="209" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="208" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_1afb25696fccd110b409bb90c2cfbeb4a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int RagePixelSpriteSheet.GetTotalCellCount</definition>
+        <argsstring>()</argsstring>
+        <name>GetTotalCellCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="231" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="230" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_1a93454e8ef7e23d61acf7a988040de8bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteSheet.saveUndo</definition>
+        <argsstring>(Color32[] buffer, RagePixelCell cell)</argsstring>
+        <name>saveUndo</name>
+        <param>
+          <type>Color32[]</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type><ref refid="class_rage_pixel_cell" kindref="compound">RagePixelCell</ref></type>
+          <declname>cell</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="241" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="240" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_1adf108aa4645abf42b61b0e04705b9ff1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteSheet.saveUndo</definition>
+        <argsstring>(RagePixelCell cell)</argsstring>
+        <name>saveUndo</name>
+        <param>
+          <type><ref refid="class_rage_pixel_cell" kindref="compound">RagePixelCell</ref></type>
+          <declname>cell</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="265" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="264" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_1ae762040f2d1a0974f01479874c16dcf4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteSheet.DoUndo</definition>
+        <argsstring>(RagePixelCell cell)</argsstring>
+        <name>DoUndo</name>
+        <param>
+          <type><ref refid="class_rage_pixel_cell" kindref="compound">RagePixelCell</ref></type>
+          <declname>cell</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="289" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="288" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_1a92c49828ae825af2ed039a5169308159" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>Color RagePixelSpriteSheet.replaceColor</definition>
+        <argsstring>(Color32[] before, Color oldColor, Color newColor)</argsstring>
+        <name>replaceColor</name>
+        <param>
+          <type>Color32[]</type>
+          <declname>before</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>oldColor</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>newColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="317" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="316" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_1aecfb7ff55fee7915eed484d07fd4beee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>Color RagePixelSpriteSheet.replaceColor</definition>
+        <argsstring>(Color32[] before, Color oldColor, Color newColor, RagePixelRow targetRow)</argsstring>
+        <name>replaceColor</name>
+        <param>
+          <type>Color32[]</type>
+          <declname>before</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>oldColor</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>newColor</declname>
+        </param>
+        <param>
+          <type><ref refid="class_rage_pixel_row" kindref="compound">RagePixelRow</ref></type>
+          <declname>targetRow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="356" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="355" bodyend="403"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_1a1b3c548164ced39b6ccb469f58be9f46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color[]</type>
+        <definition>Color [] RagePixelSpriteSheet.getPreviewImage</definition>
+        <argsstring>(int rowIndex, int cellIndex, int width, int height, bool selected, Color selectedBorder)</argsstring>
+        <name>getPreviewImage</name>
+        <param>
+          <type>int</type>
+          <declname>rowIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cellIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>selectedBorder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="406" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="405" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_1aee9d6159447f59b0ac1aa8608507cbf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color[]</type>
+        <definition>Color [] RagePixelSpriteSheet.getImage</definition>
+        <argsstring>(int rowIndex, int cellIndex)</argsstring>
+        <name>getImage</name>
+        <param>
+          <type>int</type>
+          <declname>rowIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cellIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="457" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="456" bodyend="480"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_1ae2f0ce120f4f5489b631254c1b4fe1c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color[]</type>
+        <definition>Color [] RagePixelSpriteSheet.getImage</definition>
+        <argsstring>(int rowIndex, int cellIndex, int left, int top, int width, int height)</argsstring>
+        <name>getImage</name>
+        <param>
+          <type>int</type>
+          <declname>rowIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cellIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="483" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="482" bodyend="513"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" line="6" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelSpriteSheet.cs" bodystart="5" bodyend="515"/>
+    <listofallmembers>
+      <member refid="class_rage_pixel_sprite_sheet_1a72f1ebb88b8a22f9819e5501985d32bf" prot="private" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>_rows</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1a3085b28d0e238317cfcf7b9624f4b8ee" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>AddRow</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1a4f9d8ec6a99d9ae31d5974efd554039d" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>AddRow</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1a802f55e0ff17565a85c4407c33c0099b" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>atlas</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1ae762040f2d1a0974f01479874c16dcf4" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>DoUndo</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1aee9d6159447f59b0ac1aa8608507cbf2" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>getImage</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1ae2f0ce120f4f5489b631254c1b4fe1c0" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>getImage</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1aaf3851d67ec35485d84cbd940b2c04df" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>GetIndex</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1a11300c3042982073e0a597262f821ca5" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>GetIndexByName</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1a71e69ac7a2154b8a7808c157f1ae1f32" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>GetKey</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1a1b3c548164ced39b6ccb469f58be9f46" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>getPreviewImage</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1ab54e8274c3cd2a256b7b2befb680c3e4" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>GetRow</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1a500e37a0b7ba3f833f0f0c2c3207b3af" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>GetRowByName</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1afb25696fccd110b409bb90c2cfbeb4a0" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>GetTotalCellCount</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1aa241db4f20308246c2b70b059304755b" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>MoveRow</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1a8c731ec816c2851f8fbd3ca4a8e7be9f" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>RemoveRowByIndex</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1a14e0f896028db7cd3ba5f9b91296d9e2" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>RemoveRowByKey</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1a6c9d468880df0f7a32bee1b68706472a" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>RemoveRowByName</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1a92c49828ae825af2ed039a5169308159" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>replaceColor</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1aecfb7ff55fee7915eed484d07fd4beee" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>replaceColor</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1a3f5b1ca6150b8aa47a899cc36c1fd8da" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>rows</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1a93454e8ef7e23d61acf7a988040de8bc" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>saveUndo</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1adf108aa4645abf42b61b0e04705b9ff1" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>saveUndo</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_1a1888bb9e536725e355e468b134683e30" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheet</scope><name>thumbnailSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

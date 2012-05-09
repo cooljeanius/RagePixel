@@ -1,0 +1,242 @@
+.TH "RagePixelSprite" 3 "Tue May 8 2012" "RagePixel" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+RagePixelSprite \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBIRagePixel\fP\&.
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "enum \fBMode\fP "
+.br
+.ti -1c
+.RI "enum \fBPivotMode\fP "
+.br
+.ti -1c
+.RI "enum \fBFrameMode\fP "
+.br
+.ti -1c
+.RI "enum \fBAnimationMode\fP "
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBSnapToScale\fP ()"
+.br
+.ti -1c
+.RI "void \fBSnapToIntegerPosition\fP ()"
+.br
+.ti -1c
+.RI "void \fBSnapToIntegerPosition\fP (float divider)"
+.br
+.ti -1c
+.RI "void \fBrefreshMesh\fP ()"
+.br
+.ti -1c
+.RI "void \fBGenerateMesh\fP (Mesh mesh)"
+.br
+.ti -1c
+.RI "void \fBcheckKeyIntegrity\fP ()"
+.br
+.ti -1c
+.RI "void \fBOnDestroy\fP ()"
+.br
+.ti -1c
+.RI "void \fBshiftCell\fP (int amount, bool loop)"
+.br
+.ti -1c
+.RI "void \fBshiftRow\fP (int amount)"
+.br
+.ti -1c
+.RI "void \fBselectRow\fP (int index)"
+.br
+.ti -1c
+.RI "void \fBselectCell\fP (int index)"
+.br
+.ti -1c
+.RI "string \fBgetCurrentRowName\fP ()"
+.br
+.ti -1c
+.RI "\fBRagePixelRow\fP \fBGetCurrentRow\fP ()"
+.br
+.ti -1c
+.RI "\fBRagePixelCell\fP \fBGetCurrentCell\fP ()"
+.br
+.ti -1c
+.RI "int \fBGetCurrentCellIndex\fP ()"
+.br
+.ti -1c
+.RI "int \fBGetCurrentRowIndex\fP ()"
+.br
+.ti -1c
+.RI "void \fBOnDrawGizmosSelected\fP ()"
+.br
+.ti -1c
+.RI "void \fBSetSprite\fP (string name)"
+.br
+.ti -1c
+.RI "void \fBSetSprite\fP (string name, int frameIndex)"
+.br
+.ti -1c
+.RI "int \fBGetSizeX\fP ()"
+.br
+.ti -1c
+.RI "int \fBGetSizeY\fP ()"
+.br
+.ti -1c
+.RI "void \fBPlayAnimation\fP ()"
+.br
+.ti -1c
+.RI "void \fBPlayAnimation\fP (bool forceRestart)"
+.br
+.ti -1c
+.RI "void \fBPlayAnimation\fP (bool forceRestart, int rangeMinIndex, int rangeMaxIndex, int pri=0)"
+.br
+.ti -1c
+.RI "void \fBPlayAnimation\fP (bool forceRestart, int[] frames, int pri=0)"
+.br
+.ti -1c
+.RI "void \fBPlayAnimation\fP (bool forceRestart, AnimationMode animMode, int rangeMinIndex, int rangeMaxIndex, int pri=0)"
+.br
+.ti -1c
+.RI "void \fBPlayAnimation\fP (bool forceRestart, AnimationMode animMode, int[] frames, int pri=0)"
+.br
+.ti -1c
+.RI "void \fBCheckAnimOnPlay\fP ()"
+.br
+.ti -1c
+.RI "bool \fBHasNamedAnimation\fP (string name)"
+.br
+.ti -1c
+.RI "void \fBPlayNamedAnimation\fP (string name, int pri=0)"
+.br
+.ti -1c
+.RI "void \fBPlayNamedAnimation\fP (string name, bool forceRestart, int pri=0)"
+.br
+.ti -1c
+.RI "bool \fBAnimationIsDifferent\fP (\fBRagePixelAnimation\fP a)"
+.br
+.ti -1c
+.RI "void \fBPlayNamedAnimation\fP (string name, bool forceRestart, float delayFirstFrame, int pri=0)"
+.br
+.ti -1c
+.RI "void \fBStopAnimation\fP ()"
+.br
+.ti -1c
+.RI "bool \fBisPlaying\fP ()"
+.br
+.ti -1c
+.RI "void \fBSetSize\fP (int height, int width)"
+.br
+.ti -1c
+.RI "Rect \fBGetRect\fP ()"
+.br
+.ti -1c
+.RI "Vector3 \fBGetPivotOffset\fP ()"
+.br
+.ti -1c
+.RI "void \fBSetHorizontalFlip\fP (bool value)"
+.br
+.ti -1c
+.RI "void \fBSetVerticalFlip\fP (bool value)"
+.br
+.ti -1c
+.RI "void \fBSetTintColor\fP (Color color)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "Vector3 \fBaccuratePosition\fP"
+.br
+.ti -1c
+.RI "\fBRagePixelSpriteSheet\fP \fBspriteSheet\fP"
+.br
+.ti -1c
+.RI "Mode \fBmode\fP = Mode\&.Default"
+.br
+.ti -1c
+.RI "PivotMode \fBpivotMode\fP = PivotMode\&.BottomLeft"
+.br
+.ti -1c
+.RI "FrameMode \fBframeMode\fP = 0"
+.br
+.ti -1c
+.RI "AnimationMode \fBanimationMode\fP = 0"
+.br
+.ti -1c
+.RI "int \fBanimationMinIndex\fP = -1"
+.br
+.ti -1c
+.RI "int \fBanimationMaxIndex\fP = -1"
+.br
+.ti -1c
+.RI "int[] \fBanimationFrames\fP"
+.br
+.ti -1c
+.RI "int \fBanimationCurrentFrame\fP = 0"
+.br
+.ti -1c
+.RI "int \fBgrid9Left\fP"
+.br
+.ti -1c
+.RI "int \fBgrid9Top\fP"
+.br
+.ti -1c
+.RI "int \fBgrid9Right\fP"
+.br
+.ti -1c
+.RI "int \fBgrid9Bottom\fP"
+.br
+.ti -1c
+.RI "int \fBcurrentRowKey\fP"
+.br
+.ti -1c
+.RI "int \fBcurrentCellKey\fP"
+.br
+.ti -1c
+.RI "int \fBZLayer\fP"
+.br
+.ti -1c
+.RI "int \fBpixelSizeX\fP = 16"
+.br
+.ti -1c
+.RI "int \fBpixelSizeY\fP = 16"
+.br
+.ti -1c
+.RI "bool \fBmeshIsDirty\fP = false"
+.br
+.ti -1c
+.RI "bool \fBvertexColorsAreDirty\fP = false"
+.br
+.ti -1c
+.RI "Color \fBtintColor\fP = new Color(1f, 1f, 1f, 1f)"
+.br
+.ti -1c
+.RI "bool \fBflipHorizontal\fP"
+.br
+.ti -1c
+.RI "bool \fBflipVertical\fP"
+.br
+.ti -1c
+.RI "float \fBnextAnimFrame\fP = 0f"
+.br
+.ti -1c
+.RI "bool \fBplayAnimation\fP = false"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 5 of file RagePixelSprite\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RagePixel from the source code\&.

@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_rage_pixel_bitmap" kind="class" prot="public">
+    <compoundname>RagePixelBitmap</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_bitmap_1a355938952d9ffee865925971d53b4bc2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelBitmap.W</definition>
+        <argsstring></argsstring>
+        <name>W</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" line="5" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_bitmap_1a743db35b2a8b9d5ee95a9ebcb5ec6407" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelBitmap.H</definition>
+        <argsstring></argsstring>
+        <name>H</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" line="6" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_bitmap_1a3d2fd1bc54523d65b3e830507041bce0" prot="public" static="no" mutable="no">
+        <type>Color[]</type>
+        <definition>Color [] RagePixelBitmap.pixels</definition>
+        <argsstring></argsstring>
+        <name>pixels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" line="7" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rage_pixel_bitmap_1a46662c046ac8c87ce80e8c7939b67fa7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RagePixelBitmap.RagePixelBitmap</definition>
+        <argsstring>(Color[] _pixels, int width, int height)</argsstring>
+        <name>RagePixelBitmap</name>
+        <param>
+          <type>Color[]</type>
+          <declname>_pixels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" line="10" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" bodystart="9" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_bitmap_1ac4b02ad55fdc7dc147ae433377b49a64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_rage_pixel_bitmap" kindref="compound">RagePixelBitmap</ref></type>
+        <definition>RagePixelBitmap RagePixelBitmap.GetSubImage</definition>
+        <argsstring>(int X, int Y, int width, int height)</argsstring>
+        <name>GetSubImage</name>
+        <param>
+          <type>int</type>
+          <declname>X</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" line="18" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" bodystart="17" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_bitmap_1abb354cbaf4d4c870f52208d61e79ad85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelBitmap.PasteBitmap</definition>
+        <argsstring>(int X, int Y, RagePixelBitmap bitmap)</argsstring>
+        <name>PasteBitmap</name>
+        <param>
+          <type>int</type>
+          <declname>X</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Y</declname>
+        </param>
+        <param>
+          <type><ref refid="class_rage_pixel_bitmap" kindref="compound">RagePixelBitmap</ref></type>
+          <declname>bitmap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" line="31" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" bodystart="30" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_bitmap_1a5e86eb6ddf1a6ddcc76ceaaf2a16a7e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelBitmap.PasteBitmapAlpha</definition>
+        <argsstring>(int X, int Y, RagePixelBitmap bitmap)</argsstring>
+        <name>PasteBitmapAlpha</name>
+        <param>
+          <type>int</type>
+          <declname>X</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Y</declname>
+        </param>
+        <param>
+          <type><ref refid="class_rage_pixel_bitmap" kindref="compound">RagePixelBitmap</ref></type>
+          <declname>bitmap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" line="43" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" bodystart="42" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_bitmap_1a8dfc03c2e8b45b2b8747b5ebc48eb8a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelBitmap.PasteToTextureWithBounds</definition>
+        <argsstring>(int X, int Y, int minX, int minY, int maxX, int maxY, Texture2D tex, Color multiplyWith)</argsstring>
+        <name>PasteToTextureWithBounds</name>
+        <param>
+          <type>int</type>
+          <declname>X</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minY</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxY</declname>
+        </param>
+        <param>
+          <type>Texture2D</type>
+          <declname>tex</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>multiplyWith</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" line="56" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" bodystart="55" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_bitmap_1a0faaff0f8eff83fb4ef1748c8c137e62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int RagePixelBitmap.Width</definition>
+        <argsstring>()</argsstring>
+        <name>Width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" line="93" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_bitmap_1a795ba452d54c8a803b15830d9de28206" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int RagePixelBitmap.Height</definition>
+        <argsstring>()</argsstring>
+        <name>Height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" line="98" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_bitmap_1a8c143e298486a4ad4ccf36561f58c8d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>Color RagePixelBitmap.GetPixel</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>GetPixel</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" line="103" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" bodystart="102" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_bitmap_1aacfae7164b8917f94ba65a154bea5e8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelBitmap.SetPixel</definition>
+        <argsstring>(int x, int y, Color color)</argsstring>
+        <name>SetPixel</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" line="117" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" bodystart="116" bodyend="127"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" line="3" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelBitmap.cs" bodystart="3" bodyend="129"/>
+    <listofallmembers>
+      <member refid="class_rage_pixel_bitmap_1a8c143e298486a4ad4ccf36561f58c8d7" prot="public" virt="non-virtual"><scope>RagePixelBitmap</scope><name>GetPixel</name></member>
+      <member refid="class_rage_pixel_bitmap_1ac4b02ad55fdc7dc147ae433377b49a64" prot="public" virt="non-virtual"><scope>RagePixelBitmap</scope><name>GetSubImage</name></member>
+      <member refid="class_rage_pixel_bitmap_1a743db35b2a8b9d5ee95a9ebcb5ec6407" prot="private" virt="non-virtual"><scope>RagePixelBitmap</scope><name>H</name></member>
+      <member refid="class_rage_pixel_bitmap_1a795ba452d54c8a803b15830d9de28206" prot="public" virt="non-virtual"><scope>RagePixelBitmap</scope><name>Height</name></member>
+      <member refid="class_rage_pixel_bitmap_1abb354cbaf4d4c870f52208d61e79ad85" prot="public" virt="non-virtual"><scope>RagePixelBitmap</scope><name>PasteBitmap</name></member>
+      <member refid="class_rage_pixel_bitmap_1a5e86eb6ddf1a6ddcc76ceaaf2a16a7e3" prot="public" virt="non-virtual"><scope>RagePixelBitmap</scope><name>PasteBitmapAlpha</name></member>
+      <member refid="class_rage_pixel_bitmap_1a8dfc03c2e8b45b2b8747b5ebc48eb8a7" prot="public" virt="non-virtual"><scope>RagePixelBitmap</scope><name>PasteToTextureWithBounds</name></member>
+      <member refid="class_rage_pixel_bitmap_1a3d2fd1bc54523d65b3e830507041bce0" prot="public" virt="non-virtual"><scope>RagePixelBitmap</scope><name>pixels</name></member>
+      <member refid="class_rage_pixel_bitmap_1a46662c046ac8c87ce80e8c7939b67fa7" prot="public" virt="non-virtual"><scope>RagePixelBitmap</scope><name>RagePixelBitmap</name></member>
+      <member refid="class_rage_pixel_bitmap_1aacfae7164b8917f94ba65a154bea5e8f" prot="public" virt="non-virtual"><scope>RagePixelBitmap</scope><name>SetPixel</name></member>
+      <member refid="class_rage_pixel_bitmap_1a355938952d9ffee865925971d53b4bc2" prot="private" virt="non-virtual"><scope>RagePixelBitmap</scope><name>W</name></member>
+      <member refid="class_rage_pixel_bitmap_1a0faaff0f8eff83fb4ef1748c8c137e62" prot="public" virt="non-virtual"><scope>RagePixelBitmap</scope><name>Width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

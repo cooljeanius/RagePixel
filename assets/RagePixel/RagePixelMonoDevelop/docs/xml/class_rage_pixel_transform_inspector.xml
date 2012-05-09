@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_rage_pixel_transform_inspector" kind="class" prot="public">
+    <compoundname>RagePixelTransformInspector</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rage_pixel_transform_inspector_1a6727f6208136db879fbccc0976f9a834" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void RagePixelTransformInspector.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTransformInspector.cs" line="9" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTransformInspector.cs" bodystart="8" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_rage_pixel_transform_inspector_1a5339a92db3da0324575d87780f355111" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 RagePixelTransformInspector.FixIfNaN</definition>
+        <argsstring>(Vector3 v)</argsstring>
+        <name>FixIfNaN</name>
+        <param>
+          <type>Vector3</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTransformInspector.cs" line="112" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTransformInspector.cs" bodystart="111" bodyend="126"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTransformInspector.cs" line="7" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelTransformInspector.cs" bodystart="6" bodyend="128"/>
+    <listofallmembers>
+      <member refid="class_rage_pixel_transform_inspector_1a5339a92db3da0324575d87780f355111" prot="private" virt="non-virtual"><scope>RagePixelTransformInspector</scope><name>FixIfNaN</name></member>
+      <member refid="class_rage_pixel_transform_inspector_1a6727f6208136db879fbccc0976f9a834" prot="public" virt="non-virtual"><scope>RagePixelTransformInspector</scope><name>OnInspectorGUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

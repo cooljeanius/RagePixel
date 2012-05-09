@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_rage_pixel_sprite_sheet_editor_window" kind="class" prot="public">
+    <compoundname>RagePixelSpriteSheetEditorWindow</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_rage_pixel_sprite_sheet_editor_window_1adec81a42b6b377feb4492c70b4e864e9" prot="public" static="no">
+        <name>SpriteSheetImportTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="20" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="19" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_rage_pixel_sprite_sheet_editor_window_1a06c3ce5927b0a20c07d5188aaf120fdd" prot="public" static="no">
+        <name>SpriteSheetUpdateTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="28" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="27" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_sprite_sheet_editor_window_1a86ff0367c7f404395218fcee71124f42" prot="public" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_sprite_sheet" kindref="compound">RagePixelSpriteSheet</ref></type>
+        <definition>RagePixelSpriteSheet RagePixelSpriteSheetEditorWindow.spriteSheet</definition>
+        <argsstring></argsstring>
+        <name>spriteSheet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="8" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_sheet_editor_window_1a22e08ebd95ce65317e5e302486ebef3d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_sprite_editor" kindref="compound">RagePixelSpriteEditor</ref></type>
+        <definition>RagePixelSpriteEditor RagePixelSpriteSheetEditorWindow.inspector</definition>
+        <argsstring></argsstring>
+        <name>inspector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="9" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_sheet_editor_window_1ae55f59a21aec80b97d91122baa39d5b6" prot="public" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_sprite" kindref="compound">RagePixelSprite</ref></type>
+        <definition>RagePixelSprite RagePixelSpriteSheetEditorWindow.selectedSprite</definition>
+        <argsstring></argsstring>
+        <name>selectedSprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="10" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_sprite_sheet_editor_window_1ac4bf68b4e3266dc251ffabb063cfacc2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RagePixelSpriteSheetEditorWindow.showRangeAnimationsFoldout</definition>
+        <argsstring></argsstring>
+        <name>showRangeAnimationsFoldout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="11" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_sheet_editor_window_1a8db833378a90e3663de283199b242bf9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RagePixelSpriteSheetEditorWindow.showSequenceAnimationsFoldout</definition>
+        <argsstring></argsstring>
+        <name>showSequenceAnimationsFoldout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="11" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_sheet_editor_window_1a5cdcc1b46450934775fe771a17ee7626" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RagePixelSpriteSheetEditorWindow.showCopyAnimationsFoldout</definition>
+        <argsstring></argsstring>
+        <name>showCopyAnimationsFoldout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="12" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_sheet_editor_window_1a675a8f4ed9d6b96fb133a14fd9419e24" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RagePixelSpriteSheetEditorWindow.showImportFoldout</definition>
+        <argsstring></argsstring>
+        <name>showImportFoldout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="13" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_sheet_editor_window_1a5131635e1cbc234066d26ffeaa3140ae" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RagePixelSpriteSheetEditorWindow.showUpdateFoldout</definition>
+        <argsstring></argsstring>
+        <name>showUpdateFoldout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="14" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_sheet_editor_window_1ab704bc347df0ef4ee88b6a83d807a138" prot="private" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelSpriteSheetEditorWindow.newTexture</definition>
+        <argsstring></argsstring>
+        <name>newTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="15" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_sheet_editor_window_1af83918151a0199cfeec7dd85889687b7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelSpriteSheetEditorWindow.importSpriteWidth</definition>
+        <argsstring></argsstring>
+        <name>importSpriteWidth</name>
+        <initializer> 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="16" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_sheet_editor_window_1aea3cc5621c1abaf242bf923df22b7d60" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelSpriteSheetEditorWindow.importSpriteHeight</definition>
+        <argsstring></argsstring>
+        <name>importSpriteHeight</name>
+        <initializer> 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="16" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_sheet_editor_window_1a46ff2c39d1d5b7aaba25d0fec61a355d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RagePixelSpriteSheetEditorWindow.importSpriteTopLeft</definition>
+        <argsstring></argsstring>
+        <name>importSpriteTopLeft</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="17" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_sheet_editor_window_1a960182dc14cd137438346031d2db7f14" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_anim_strip_g_u_i" kindref="compound">RagePixelAnimStripGUI</ref></type>
+        <definition>RagePixelAnimStripGUI RagePixelSpriteSheetEditorWindow._animStripGUI</definition>
+        <argsstring></argsstring>
+        <name>_animStripGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="34" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_sheet_editor_window_1ab0dfdcd52e8a1a4a7cd514019425adda" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_sprite_sheet_g_u_i" kindref="compound">RagePixelSpriteSheetGUI</ref></type>
+        <definition>RagePixelSpriteSheetGUI RagePixelSpriteSheetEditorWindow._spriteSheetGUI</definition>
+        <argsstring></argsstring>
+        <name>_spriteSheetGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="59" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_sheet_editor_window_1af4138120c05d510664a97efaef85e40f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_sprite_sheet_g_u_i" kindref="compound">RagePixelSpriteSheetGUI</ref></type>
+        <definition>RagePixelSpriteSheetGUI RagePixelSpriteSheetEditorWindow._copySpriteSheetGUI</definition>
+        <argsstring></argsstring>
+        <name>_copySpriteSheetGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="82" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_rage_pixel_sprite_sheet_editor_window_1aa6509346df3bb405df0b4a62a5560595" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_rage_pixel_anim_strip_g_u_i" kindref="compound">RagePixelAnimStripGUI</ref></type>
+        <definition>RagePixelAnimStripGUI RagePixelSpriteSheetEditorWindow.animStripGUI</definition>
+        <argsstring></argsstring>
+        <name>animStripGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="57" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_sprite_sheet_editor_window_1a17abd4fc52a987957efd2b3593b6d160" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_rage_pixel_sprite_sheet_g_u_i" kindref="compound">RagePixelSpriteSheetGUI</ref></type>
+        <definition>RagePixelSpriteSheetGUI RagePixelSpriteSheetEditorWindow.spriteSheetGUI</definition>
+        <argsstring></argsstring>
+        <name>spriteSheetGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="80" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_sprite_sheet_editor_window_1a219779fe46c4db7dbae9e4dcafede74f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_rage_pixel_sprite_sheet_g_u_i" kindref="compound">RagePixelSpriteSheetGUI</ref></type>
+        <definition>RagePixelSpriteSheetGUI RagePixelSpriteSheetEditorWindow.copySpriteSheetGUI</definition>
+        <argsstring></argsstring>
+        <name>copySpriteSheetGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="103" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_sprite_sheet_editor_window_1a0999effad1407b8f11c2298202f0ae3c" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int RagePixelSpriteSheetEditorWindow.scenePixelWidth</definition>
+        <argsstring></argsstring>
+        <name>scenePixelWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="111" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_sprite_sheet_editor_window_1a5a8a499f58a7a9662cd5fe8cf244f847" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int RagePixelSpriteSheetEditorWindow.scenePixelHeight</definition>
+        <argsstring></argsstring>
+        <name>scenePixelHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="119" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_editor_window_1ad2abff1de5b689d7c8ecabd64213b6d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteSheetEditorWindow.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="122" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="121" bodyend="591"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_editor_window_1a2fdd9ac901809971b1f79437f8885416" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteSheetEditorWindow.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="595" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="594" bodyend="600"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_editor_window_1ac6dabc031e6e6f37baa1a139582fad6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteSheetEditorWindow.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="603" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="602" bodyend="606"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_editor_window_1ae6b2d647a8b0feb795a3966a7fb5b68e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteSheetEditorWindow.UpdateSprite</definition>
+        <argsstring>(SpriteSheetUpdateTarget target)</argsstring>
+        <name>UpdateSprite</name>
+        <param>
+          <type>SpriteSheetUpdateTarget</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="609" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="608" bodyend="653"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_editor_window_1a1de880bc4c4ab2722809f1e867dbdff8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteSheetEditorWindow.UpdateCell</definition>
+        <argsstring>(RagePixelCell cell, Texture2D spritesheetTexture)</argsstring>
+        <name>UpdateCell</name>
+        <param>
+          <type><ref refid="class_rage_pixel_cell" kindref="compound">RagePixelCell</ref></type>
+          <declname>cell</declname>
+        </param>
+        <param>
+          <type>Texture2D</type>
+          <declname>spritesheetTexture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="656" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="655" bodyend="670"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_sheet_editor_window_1a25fb2b1e2876b3ab91389850027ed4cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteSheetEditorWindow.ImportSprite</definition>
+        <argsstring>(SpriteSheetImportTarget target)</argsstring>
+        <name>ImportSprite</name>
+        <param>
+          <type>SpriteSheetImportTarget</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="673" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="672" bodyend="760"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="95">
+        <label>IRagePixel</label>
+        <link refid="interface_i_rage_pixel"/>
+      </node>
+      <node id="96">
+        <label>RagePixelSpriteSheet</label>
+        <link refid="class_rage_pixel_sprite_sheet"/>
+      </node>
+      <node id="94">
+        <label>RagePixelSprite</label>
+        <link refid="class_rage_pixel_sprite"/>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+        <childnode refid="96" relation="usage">
+          <edgelabel>spriteSheet</edgelabel>
+        </childnode>
+      </node>
+      <node id="93">
+        <label>RagePixelSpriteSheetEditorWindow</label>
+        <link refid="class_rage_pixel_sprite_sheet_editor_window"/>
+        <childnode refid="94" relation="usage">
+          <edgelabel>selectedSprite</edgelabel>
+        </childnode>
+        <childnode refid="97" relation="usage">
+          <edgelabel>inspector</edgelabel>
+        </childnode>
+        <childnode refid="96" relation="usage">
+          <edgelabel>spriteSheet</edgelabel>
+        </childnode>
+      </node>
+      <node id="97">
+        <label>RagePixelSpriteEditor</label>
+        <link refid="class_rage_pixel_sprite_editor"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" line="7" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteSheetEditorWindow.cs" bodystart="6" bodyend="761"/>
+    <listofallmembers>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1a960182dc14cd137438346031d2db7f14" prot="private" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>_animStripGUI</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1af4138120c05d510664a97efaef85e40f" prot="private" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>_copySpriteSheetGUI</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1ab0dfdcd52e8a1a4a7cd514019425adda" prot="private" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>_spriteSheetGUI</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1aa6509346df3bb405df0b4a62a5560595" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>animStripGUI</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1a219779fe46c4db7dbae9e4dcafede74f" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>copySpriteSheetGUI</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1a25fb2b1e2876b3ab91389850027ed4cd" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>ImportSprite</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1aea3cc5621c1abaf242bf923df22b7d60" prot="private" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>importSpriteHeight</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1a46ff2c39d1d5b7aaba25d0fec61a355d" prot="private" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>importSpriteTopLeft</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1af83918151a0199cfeec7dd85889687b7" prot="private" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>importSpriteWidth</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1a22e08ebd95ce65317e5e302486ebef3d" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>inspector</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1ab704bc347df0ef4ee88b6a83d807a138" prot="private" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>newTexture</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1ac6dabc031e6e6f37baa1a139582fad6f" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>OnDestroy</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1ad2abff1de5b689d7c8ecabd64213b6d3" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>OnGUI</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1a5a8a499f58a7a9662cd5fe8cf244f847" prot="private" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>scenePixelHeight</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1a0999effad1407b8f11c2298202f0ae3c" prot="private" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>scenePixelWidth</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1ae55f59a21aec80b97d91122baa39d5b6" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>selectedSprite</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1a5cdcc1b46450934775fe771a17ee7626" prot="private" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>showCopyAnimationsFoldout</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1a675a8f4ed9d6b96fb133a14fd9419e24" prot="private" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>showImportFoldout</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1ac4bf68b4e3266dc251ffabb063cfacc2" prot="private" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>showRangeAnimationsFoldout</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1a8db833378a90e3663de283199b242bf9" prot="private" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>showSequenceAnimationsFoldout</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1a5131635e1cbc234066d26ffeaa3140ae" prot="private" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>showUpdateFoldout</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1a86ff0367c7f404395218fcee71124f42" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>spriteSheet</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1a17abd4fc52a987957efd2b3593b6d160" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>spriteSheetGUI</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1adec81a42b6b377feb4492c70b4e864e9" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>SpriteSheetImportTarget</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1a06c3ce5927b0a20c07d5188aaf120fdd" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>SpriteSheetUpdateTarget</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1a2fdd9ac901809971b1f79437f8885416" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>Update</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1a1de880bc4c4ab2722809f1e867dbdff8" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>UpdateCell</name></member>
+      <member refid="class_rage_pixel_sprite_sheet_editor_window_1ae6b2d647a8b0feb795a3966a7fb5b68e" prot="public" virt="non-virtual"><scope>RagePixelSpriteSheetEditorWindow</scope><name>UpdateSprite</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

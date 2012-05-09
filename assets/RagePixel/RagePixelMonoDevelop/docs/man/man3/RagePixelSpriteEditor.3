@@ -1,0 +1,215 @@
+.TH "RagePixelSpriteEditor" 3 "Tue May 8 2012" "RagePixel" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+RagePixelSpriteEditor \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "enum \fBMode\fP "
+.br
+.ti -1c
+.RI "enum \fBBrushType\fP "
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBOnDestroy\fP ()"
+.br
+.ti -1c
+.RI "override void \fBOnInspectorGUI\fP ()"
+.br
+.ti -1c
+.RI "void \fBOnSceneGUI\fP ()"
+.br
+.ti -1c
+.RI "void \fBHandleModeDefault\fP ()"
+.br
+.ti -1c
+.RI "void \fBHandleModePen\fP ()"
+.br
+.ti -1c
+.RI "void \fBHandleModeFill\fP ()"
+.br
+.ti -1c
+.RI "void \fBHandleModeSelect\fP ()"
+.br
+.ti -1c
+.RI "void \fBHandleModeResize\fP ()"
+.br
+.ti -1c
+.RI "void \fBSceneGUIInit\fP ()"
+.br
+.ti -1c
+.RI "void \fBHandleColorPickerGUI\fP ()"
+.br
+.ti -1c
+.RI "void \fBHandlePaintGUI\fP ()"
+.br
+.ti -1c
+.RI "void \fBHandlePaletteGUI\fP ()"
+.br
+.ti -1c
+.RI "void \fBHandleAnimationGUI\fP ()"
+.br
+.ti -1c
+.RI "void \fBHandleKeyboard\fP ()"
+.br
+.ti -1c
+.RI "void \fBHandleCameraWarnings\fP ()"
+.br
+.ti -1c
+.RI "void \fBOnSelected\fP ()"
+.br
+.ti -1c
+.RI "void \fBInitializeEmptyProject\fP ()"
+.br
+.ti -1c
+.RI "void \fBDrawGizmos\fP ()"
+.br
+.ti -1c
+.RI "void \fBDrawGrid9Gizmo\fP ()"
+.br
+.ti -1c
+.RI "void \fBDrawSpriteBoundsGizmo\fP ()"
+.br
+.ti -1c
+.RI "void \fBcancelColorReplacing\fP ()"
+.br
+.ti -1c
+.RI "void \fBSavePaintUndo\fP ()"
+.br
+.ti -1c
+.RI "void \fBDoPaintUndo\fP ()"
+.br
+.ti -1c
+.RI "void \fBDrawSelectionBox\fP ()"
+.br
+.ti -1c
+.RI "void \fBHandleInspectorSpritesheetRemove\fP ()"
+.br
+.ti -1c
+.RI "void \fBRefreshPreviewLayer\fP ()"
+.br
+.ti -1c
+.RI "void \fBFloodFill\fP (Color oldColor, Color color, Texture2D tex, int fX, int fY, int minX, int minY, int maxX, int maxY)"
+.br
+.ti -1c
+.RI "Color[] \fBgetScaledImage\fP (Texture2D src, int width, int height, Color bgColor)"
+.br
+.ti -1c
+.RI "void \fBShowDebugInfo\fP ()"
+.br
+.ti -1c
+.RI "\fBRagePixelTexel\fP \fBWorldToTexelCoords\fP (Texture2D tex, Transform t, Vector3 worldPos)"
+.br
+.ti -1c
+.RI "Vector3 \fBGetPivotOffset\fP ()"
+.br
+.ti -1c
+.RI "Vector3 \fBTexelCoordsToWorld\fP (Texture2D tex, Transform t, \fBRagePixelTexel\fP texel)"
+.br
+.ti -1c
+.RI "Vector3 \fBworldToSceneScreenPoint\fP (Vector3 worldPos)"
+.br
+.ti -1c
+.RI "Vector3 \fBsceneScreenToWorldPoint\fP (Vector3 sceneScreenPoint)"
+.br
+.ti -1c
+.RI "void \fBsaveTexture\fP ()"
+.br
+.ti -1c
+.RI "\fBRagePixelBitmap\fP \fBGrabSprite\fP (Rect spriteUV)"
+.br
+.ti -1c
+.RI "\fBRagePixelBitmap\fP \fBGrabRectFromSpritesheet\fP (\fBRagePixelTexelRect\fP rect)"
+.br
+.ti -1c
+.RI "void \fBCutRectInSpritesheet\fP (\fBRagePixelTexelRect\fP rect, Rect spriteUV)"
+.br
+.ti -1c
+.RI "void \fBPasteBitmapToSpritesheet\fP (\fBRagePixelTexel\fP position, Rect spriteUV, \fBRagePixelBitmap\fP bitmap)"
+.br
+.ti -1c
+.RI "void \fBPasteBitmapToSpritesheetAlpha\fP (\fBRagePixelTexel\fP position, Rect spriteUV, \fBRagePixelBitmap\fP bitmap)"
+.br
+.ti -1c
+.RI "void \fBInvokeOnSelectedEvent\fP ()"
+.br
+.ti -1c
+.RI "Camera \fBGetSceneCamera\fP ()"
+.br
+.ti -1c
+.RI "int \fBGetAtlasCellCount\fP (\fBRagePixelSpriteSheet\fP[] spriteSheets, Material atlas)"
+.br
+.ti -1c
+.RI "bool \fBSceneCameraFacingCorrectly\fP ()"
+.br
+.ti -1c
+.RI "Color \fBGetSceneButtonColor\fP (bool active)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "Mode \fBmode\fP = Mode\&.Default"
+.br
+.ti -1c
+.RI "Vector2 \fBrectangleStart\fP"
+.br
+.ti -1c
+.RI "BrushType \fBbrushType\fP = BrushType\&.Brush1"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "bool \fBanimationStripEnabled\fP = true"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "\fBRagePixelBitmap\fP \fBbrush\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "MeshRenderer \fBmeshRenderer\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "MeshFilter \fBmeshFilter\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "Texture2D \fBspritesheetTexture\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBRagePixelSprite\fP \fBragePixelSprite\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBRagePixelAnimStripGUI\fP \fBanimStripGUI\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBRagePixelSpriteSheetGUI\fP \fBspriteSheetGUI\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBRagePixelColorPickerGUI\fP \fBpaintColorPickerGUI\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBRagePixelColorPickerGUI\fP \fBreplaceColorPickerGUI\fP\fC [get]\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 9 of file RagePixelSpriteEditor\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RagePixel from the source code\&.

@@ -1,0 +1,1470 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_rage_pixel_sprite_editor" kind="class" prot="public">
+    <compoundname>RagePixelSpriteEditor</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_rage_pixel_sprite_editor_1afac7a37bca7d73aefc52b51ca2c9a8ab" prot="public" static="no">
+        <name>Mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="28" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="27" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_rage_pixel_sprite_editor_1a79710b59b471a6136a23351e47416c84" prot="public" static="no">
+        <name>BrushType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="40" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="39" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1a3aac686749b1329d9bc2a8bba23769d9" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RagePixelSpriteEditor.handleSize</definition>
+        <argsstring></argsstring>
+        <name>handleSize</name>
+        <initializer> 0.01f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="11" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1ae06dcfe0715068d50e4d3bd6677cbe18" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RagePixelSpriteEditor.justSelected</definition>
+        <argsstring></argsstring>
+        <name>justSelected</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="12" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1a07a08b53b235f342c76579e5d79bd0d2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RagePixelSpriteEditor.paintUndoSaved</definition>
+        <argsstring></argsstring>
+        <name>paintUndoSaved</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="13" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1aef1bda30994cde7ff961a3b1e43d1bc0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelSpriteEditor.defaultSceneButtonWidth</definition>
+        <argsstring></argsstring>
+        <name>defaultSceneButtonWidth</name>
+        <initializer> 32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="14" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1a82c8e4a213e5ad71dda0ab5648f496a7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelSpriteEditor.defaultSceneButtonHeight</definition>
+        <argsstring></argsstring>
+        <name>defaultSceneButtonHeight</name>
+        <initializer> 32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="15" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1afd4fdd2e20bef0f131a38dbd11d0ffae" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RagePixelSpriteEditor.atlasTextureIsDirty</definition>
+        <argsstring></argsstring>
+        <name>atlasTextureIsDirty</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="16" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1aba709a89389699f95f1513b301edb027" prot="private" static="no" mutable="no">
+        <type>Color32[]</type>
+        <definition>Color32 [] RagePixelSpriteEditor.colorReplaceBuffer</definition>
+        <argsstring></argsstring>
+        <name>colorReplaceBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="17" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1a9af939a80dea5cc0cb1458b715f32007" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_texel_rect" kindref="compound">RagePixelTexelRect</ref></type>
+        <definition>RagePixelTexelRect RagePixelSpriteEditor.selection</definition>
+        <argsstring></argsstring>
+        <name>selection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="18" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1a3f99aa19916739d4d11d7d1829c1a1af" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RagePixelSpriteEditor.selectionActive</definition>
+        <argsstring></argsstring>
+        <name>selectionActive</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="19" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1a719b5797ed195d3c4bb1b0c504ccfdde" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_texel" kindref="compound">RagePixelTexel</ref></type>
+        <definition>RagePixelTexel RagePixelSpriteEditor.selectionStart</definition>
+        <argsstring></argsstring>
+        <name>selectionStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="20" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1a7286136f42dd0e1d881a4690156b2eec" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_texel" kindref="compound">RagePixelTexel</ref></type>
+        <definition>RagePixelTexel RagePixelSpriteEditor.frontBufferPosition</definition>
+        <argsstring></argsstring>
+        <name>frontBufferPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="21" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1a428f68c22053f243849a47b7afd7634f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_texel" kindref="compound">RagePixelTexel</ref></type>
+        <definition>RagePixelTexel RagePixelSpriteEditor.frontBufferDragStartPosition</definition>
+        <argsstring></argsstring>
+        <name>frontBufferDragStartPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="22" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1a330aba56a11838b6181601cb01dadc63" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_texel" kindref="compound">RagePixelTexel</ref></type>
+        <definition>RagePixelTexel RagePixelSpriteEditor.frontBufferDragStartMousePosition</definition>
+        <argsstring></argsstring>
+        <name>frontBufferDragStartMousePosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="23" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1a33e4a56c88b2fab4a9c05f73c23d5fa3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_bitmap" kindref="compound">RagePixelBitmap</ref></type>
+        <definition>RagePixelBitmap RagePixelSpriteEditor.backBuffer</definition>
+        <argsstring></argsstring>
+        <name>backBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="24" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1aaa5138d6175e133bf3e8c263ed874267" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_bitmap" kindref="compound">RagePixelBitmap</ref></type>
+        <definition>RagePixelBitmap RagePixelSpriteEditor.frontBuffer</definition>
+        <argsstring></argsstring>
+        <name>frontBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="25" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1a26d74a3794f1ea2fd8754313c55cf198" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_bitmap" kindref="compound">RagePixelBitmap</ref></type>
+        <definition>RagePixelBitmap RagePixelSpriteEditor._brush11</definition>
+        <argsstring></argsstring>
+        <name>_brush11</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="46" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1a6524d4e455227cff83ad8253d3582991" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_bitmap" kindref="compound">RagePixelBitmap</ref></type>
+        <definition>RagePixelBitmap RagePixelSpriteEditor._brush33</definition>
+        <argsstring></argsstring>
+        <name>_brush33</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="47" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1ab6b72716fc82e2b99c57e048fd46bee3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_bitmap" kindref="compound">RagePixelBitmap</ref></type>
+        <definition>RagePixelBitmap RagePixelSpriteEditor._brush55</definition>
+        <argsstring></argsstring>
+        <name>_brush55</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="48" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1a114cf3dab3157d6b918c132c2f7398be" prot="private" static="no" mutable="no">
+        <type>MeshRenderer</type>
+        <definition>MeshRenderer RagePixelSpriteEditor._meshRenderer</definition>
+        <argsstring></argsstring>
+        <name>_meshRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="168" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1a8c101ffa83e5c926a4fa7ddc883046f3" prot="private" static="no" mutable="no">
+        <type>MeshFilter</type>
+        <definition>MeshFilter RagePixelSpriteEditor._meshFilter</definition>
+        <argsstring></argsstring>
+        <name>_meshFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="182" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1a0648a344b4812038c1eef32aff8df34b" prot="private" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelSpriteEditor._spritesheetTexture</definition>
+        <argsstring></argsstring>
+        <name>_spritesheetTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="196" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1acb4a57ea0d34d2827867eb36a0bd4a58" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_sprite" kindref="compound">RagePixelSprite</ref></type>
+        <definition>RagePixelSprite RagePixelSpriteEditor._ragePixelSprite</definition>
+        <argsstring></argsstring>
+        <name>_ragePixelSprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="210" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1aea20c335db186370ff59882d1cea2e53" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_palette_g_u_i" kindref="compound">RagePixelPaletteGUI</ref></type>
+        <definition>RagePixelPaletteGUI RagePixelSpriteEditor._paletteGUI</definition>
+        <argsstring></argsstring>
+        <name>_paletteGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="224" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1aee0173824c0d219c6260571d8c711057" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_anim_strip_g_u_i" kindref="compound">RagePixelAnimStripGUI</ref></type>
+        <definition>RagePixelAnimStripGUI RagePixelSpriteEditor._animStripGUI</definition>
+        <argsstring></argsstring>
+        <name>_animStripGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="242" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1af538a7fa3e96e0bfa8486311aebe6ebe" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_sprite_sheet_g_u_i" kindref="compound">RagePixelSpriteSheetGUI</ref></type>
+        <definition>RagePixelSpriteSheetGUI RagePixelSpriteEditor._spriteSheetGUI</definition>
+        <argsstring></argsstring>
+        <name>_spriteSheetGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="261" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1abb17c14859ce00e749929a57263ea126" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_color_picker_g_u_i" kindref="compound">RagePixelColorPickerGUI</ref></type>
+        <definition>RagePixelColorPickerGUI RagePixelSpriteEditor._paintColorPickerGUI</definition>
+        <argsstring></argsstring>
+        <name>_paintColorPickerGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="277" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1a936c91e1c663214c22f4e8ad966609da" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rage_pixel_color_picker_g_u_i" kindref="compound">RagePixelColorPickerGUI</ref></type>
+        <definition>RagePixelColorPickerGUI RagePixelSpriteEditor._replaceColorPickerGUI</definition>
+        <argsstring></argsstring>
+        <name>_replaceColorPickerGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="297" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1afb7dfefbda90bca8878a299354ded725" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RagePixelSpriteEditor.showGrid9Gizmo</definition>
+        <argsstring></argsstring>
+        <name>showGrid9Gizmo</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="319" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="319" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1aa22fd81df35bcf7e4a2b2fe06d21bc64" prot="public" static="no" mutable="no">
+        <type>Mode</type>
+        <definition>Mode RagePixelSpriteEditor.mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <initializer> Mode.Default</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="36" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1ad35b0f96df30dfcf4e0e15ca920485b4" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 RagePixelSpriteEditor.rectangleStart</definition>
+        <argsstring></argsstring>
+        <name>rectangleStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="37" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1a985891f307eeeaf65c9941d33908b26a" prot="public" static="no" mutable="no">
+        <type>BrushType</type>
+        <definition>BrushType RagePixelSpriteEditor.brushType</definition>
+        <argsstring></argsstring>
+        <name>brushType</name>
+        <initializer> BrushType.Brush1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="45" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_sprite_editor_1adc9ca5b140961362a8d950ff4016a65f" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RagePixelSpriteEditor.animationStripEnabled</definition>
+        <argsstring></argsstring>
+        <name>animationStripEnabled</name>
+        <initializer> true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="38" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_rage_pixel_sprite_editor_1a6f123c1c34b4a21495167dc415250bb1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_rage_pixel_bitmap" kindref="compound">RagePixelBitmap</ref></type>
+        <definition>RagePixelBitmap RagePixelSpriteEditor.brush</definition>
+        <argsstring></argsstring>
+        <name>brush</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="120" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_sprite_editor_1a30c7562a7e7e0d023fdbd0a681d5a78a" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Camera</type>
+        <definition>Camera RagePixelSpriteEditor.sceneCamera</definition>
+        <argsstring></argsstring>
+        <name>sceneCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="136" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_sprite_editor_1acde76b9a6b5c75a732fab826cfa5d295" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int RagePixelSpriteEditor.scenePixelWidth</definition>
+        <argsstring></argsstring>
+        <name>scenePixelWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="151" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_sprite_editor_1a0cd8206ca403cb0bceb729d130828e30" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int RagePixelSpriteEditor.scenePixelHeight</definition>
+        <argsstring></argsstring>
+        <name>scenePixelHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="166" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_sprite_editor_1a1f9778108172bd7641db90fc7e20c347" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>MeshRenderer</type>
+        <definition>MeshRenderer RagePixelSpriteEditor.meshRenderer</definition>
+        <argsstring></argsstring>
+        <name>meshRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="180" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_sprite_editor_1a1f23f91644708d626bb089bd0cd56ba7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>MeshFilter</type>
+        <definition>MeshFilter RagePixelSpriteEditor.meshFilter</definition>
+        <argsstring></argsstring>
+        <name>meshFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="194" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_sprite_editor_1aca2fbb26a33386e6e7ef07b2f6dd21aa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelSpriteEditor.spritesheetTexture</definition>
+        <argsstring></argsstring>
+        <name>spritesheetTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="208" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_sprite_editor_1a53fdfd957adbeafc33ed0efd7d252595" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_rage_pixel_sprite" kindref="compound">RagePixelSprite</ref></type>
+        <definition>RagePixelSprite RagePixelSpriteEditor.ragePixelSprite</definition>
+        <argsstring></argsstring>
+        <name>ragePixelSprite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="222" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_sprite_editor_1ab50c24b0e49a43621d568bd34f4c3cec" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_rage_pixel_palette_g_u_i" kindref="compound">RagePixelPaletteGUI</ref></type>
+        <definition>RagePixelPaletteGUI RagePixelSpriteEditor.paletteGUI</definition>
+        <argsstring></argsstring>
+        <name>paletteGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="240" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_sprite_editor_1ad36c2076eec016e664f2704d6994d14f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_rage_pixel_anim_strip_g_u_i" kindref="compound">RagePixelAnimStripGUI</ref></type>
+        <definition>RagePixelAnimStripGUI RagePixelSpriteEditor.animStripGUI</definition>
+        <argsstring></argsstring>
+        <name>animStripGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="259" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_sprite_editor_1afe0768b737d8ea57833ec078c094e628" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_rage_pixel_sprite_sheet_g_u_i" kindref="compound">RagePixelSpriteSheetGUI</ref></type>
+        <definition>RagePixelSpriteSheetGUI RagePixelSpriteEditor.spriteSheetGUI</definition>
+        <argsstring></argsstring>
+        <name>spriteSheetGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="275" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_sprite_editor_1a77d755c98139a5778aa663370f0f379b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_rage_pixel_color_picker_g_u_i" kindref="compound">RagePixelColorPickerGUI</ref></type>
+        <definition>RagePixelColorPickerGUI RagePixelSpriteEditor.paintColorPickerGUI</definition>
+        <argsstring></argsstring>
+        <name>paintColorPickerGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="295" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_sprite_editor_1a8e27152ebda2379cad1f19a1a4017fbf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_rage_pixel_color_picker_g_u_i" kindref="compound">RagePixelColorPickerGUI</ref></type>
+        <definition>RagePixelColorPickerGUI RagePixelSpriteEditor.replaceColorPickerGUI</definition>
+        <argsstring></argsstring>
+        <name>replaceColorPickerGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="317" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a703dd66063d0f6c6a9d82d72b5ec1119" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="322" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="321" bodyend="327"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a57674859bb00c2af0f92e7015fc0ad13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void RagePixelSpriteEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="330" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="329" bodyend="557"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a082cb275014bd9311fd08308ed928141" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.OnSceneGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnSceneGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="560" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="559" bodyend="620"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a973ba2ff7fadbccbf006ba87830b963f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.HandleModeDefault</definition>
+        <argsstring>()</argsstring>
+        <name>HandleModeDefault</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="623" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="622" bodyend="645"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1ad0feb0ca5388e3f4dd434516313dd5ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.HandleModePen</definition>
+        <argsstring>()</argsstring>
+        <name>HandleModePen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="648" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="647" bodyend="719"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a521b2672d069b69d3a571995307416d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.HandleModeFill</definition>
+        <argsstring>()</argsstring>
+        <name>HandleModeFill</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="722" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="721" bodyend="780"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a8b3e425e2486c17a190f005e00280c24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.HandleModeSelect</definition>
+        <argsstring>()</argsstring>
+        <name>HandleModeSelect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="783" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="782" bodyend="885"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a341fec8628bc0ac48804235be1a7fb4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.HandleModeResize</definition>
+        <argsstring>()</argsstring>
+        <name>HandleModeResize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="888" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="887" bodyend="935"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a8b5503b262b6075857da931765827225" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.SceneGUIInit</definition>
+        <argsstring>()</argsstring>
+        <name>SceneGUIInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="938" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="937" bodyend="962"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a152eff60ce878f587944ed3edf0fa35c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.HandleColorPickerGUI</definition>
+        <argsstring>()</argsstring>
+        <name>HandleColorPickerGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="965" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="964" bodyend="1060"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1aa649a55f3459233211b08d20a8f3becf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.HandlePaintGUI</definition>
+        <argsstring>()</argsstring>
+        <name>HandlePaintGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1063" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1062" bodyend="1143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a4a498d9ae58790a8e74a71fa7f9edb30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.HandlePaletteGUI</definition>
+        <argsstring>()</argsstring>
+        <name>HandlePaletteGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1146" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1145" bodyend="1175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a1f45e447118a04d65184985d1fa131aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.HandleAnimationGUI</definition>
+        <argsstring>()</argsstring>
+        <name>HandleAnimationGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1178" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1177" bodyend="1245"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a229e952e89aa9b5f12a12ee5674959df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.HandleKeyboard</definition>
+        <argsstring>()</argsstring>
+        <name>HandleKeyboard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1248" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1247" bodyend="1360"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a6f015ee37d0984ddb036163918ff0dee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.HandleCameraWarnings</definition>
+        <argsstring>()</argsstring>
+        <name>HandleCameraWarnings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1363" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1362" bodyend="1394"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a8ab6e2d3cf94b4796dc3d7fbb6dfdab4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.OnSelected</definition>
+        <argsstring>()</argsstring>
+        <name>OnSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1397" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1396" bodyend="1405"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a7d4ee008b005cb9b3568325edcd872b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.InitializeEmptyProject</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeEmptyProject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1408" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1407" bodyend="1464"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1ad8bb695c6fa75d819a89dcf6c524a030" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.DrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>DrawGizmos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1467" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1466" bodyend="1474"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a02c9dfbdd9cdc1583e4edbb127e42100" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.DrawGrid9Gizmo</definition>
+        <argsstring>()</argsstring>
+        <name>DrawGrid9Gizmo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1477" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1476" bodyend="1512"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a937c11252a482e51e647b64a71c01614" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.DrawSpriteBoundsGizmo</definition>
+        <argsstring>()</argsstring>
+        <name>DrawSpriteBoundsGizmo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1515" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1514" bodyend="1548"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a4dfeacf83cb129326ef074521454ecfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.cancelColorReplacing</definition>
+        <argsstring>()</argsstring>
+        <name>cancelColorReplacing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1551" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1550" bodyend="1555"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a3a71bf8341e51b17fd396d7c8a25fac7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.SavePaintUndo</definition>
+        <argsstring>()</argsstring>
+        <name>SavePaintUndo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1558" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1557" bodyend="1564"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1ad4cb484e17cb477049427d13790c21bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.DoPaintUndo</definition>
+        <argsstring>()</argsstring>
+        <name>DoPaintUndo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1567" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1566" bodyend="1571"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a3a544568283528ebba2d8325e9b343c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.DrawSelectionBox</definition>
+        <argsstring>()</argsstring>
+        <name>DrawSelectionBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1574" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1573" bodyend="1595"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a93e781f61798e4e66e95550acd3f17b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.HandleInspectorSpritesheetRemove</definition>
+        <argsstring>()</argsstring>
+        <name>HandleInspectorSpritesheetRemove</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1598" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1597" bodyend="1618"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a85bf0f47bd9e6a6c7d7488c7046d8dc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.RefreshPreviewLayer</definition>
+        <argsstring>()</argsstring>
+        <name>RefreshPreviewLayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1621" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1620" bodyend="1638"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a2669880346c608f99177088e63145ac2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.FloodFill</definition>
+        <argsstring>(Color oldColor, Color color, Texture2D tex, int fX, int fY, int minX, int minY, int maxX, int maxY)</argsstring>
+        <name>FloodFill</name>
+        <param>
+          <type>Color</type>
+          <declname>oldColor</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>Texture2D</type>
+          <declname>tex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fY</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minY</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1641" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1640" bodyend="1656"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a0c5f3d9da26f922911d57bd3bdb86c14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color[]</type>
+        <definition>Color [] RagePixelSpriteEditor.getScaledImage</definition>
+        <argsstring>(Texture2D src, int width, int height, Color bgColor)</argsstring>
+        <name>getScaledImage</name>
+        <param>
+          <type>Texture2D</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>bgColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1659" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1658" bodyend="1683"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a5ba80f510b8538d1d7a49ef7dd2221a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.ShowDebugInfo</definition>
+        <argsstring>()</argsstring>
+        <name>ShowDebugInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1686" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1685" bodyend="1713"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a817f7ee826ab5510a5c045a9361f4104" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_rage_pixel_texel" kindref="compound">RagePixelTexel</ref></type>
+        <definition>RagePixelTexel RagePixelSpriteEditor.WorldToTexelCoords</definition>
+        <argsstring>(Texture2D tex, Transform t, Vector3 worldPos)</argsstring>
+        <name>WorldToTexelCoords</name>
+        <param>
+          <type>Texture2D</type>
+          <declname>tex</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>worldPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1716" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1715" bodyend="1770"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a0532309139a8f9f7c4c5b6e71062c3d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 RagePixelSpriteEditor.GetPivotOffset</definition>
+        <argsstring>()</argsstring>
+        <name>GetPivotOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1773" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1772" bodyend="1818"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1ac8c634d551c16e7ca5c561b79e7bcfbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 RagePixelSpriteEditor.TexelCoordsToWorld</definition>
+        <argsstring>(Texture2D tex, Transform t, RagePixelTexel texel)</argsstring>
+        <name>TexelCoordsToWorld</name>
+        <param>
+          <type>Texture2D</type>
+          <declname>tex</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type><ref refid="class_rage_pixel_texel" kindref="compound">RagePixelTexel</ref></type>
+          <declname>texel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1821" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1820" bodyend="1825"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1ac8178fe128b2c547d150dc9ee9644459" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 RagePixelSpriteEditor.worldToSceneScreenPoint</definition>
+        <argsstring>(Vector3 worldPos)</argsstring>
+        <name>worldToSceneScreenPoint</name>
+        <param>
+          <type>Vector3</type>
+          <declname>worldPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1828" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1827" bodyend="1832"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a2ed39c97d527f8d25909bdbaf99321e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 RagePixelSpriteEditor.sceneScreenToWorldPoint</definition>
+        <argsstring>(Vector3 sceneScreenPoint)</argsstring>
+        <name>sceneScreenToWorldPoint</name>
+        <param>
+          <type>Vector3</type>
+          <declname>sceneScreenPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1835" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1834" bodyend="1849"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a95997ede63bd3c96b68026269dab5f66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.saveTexture</definition>
+        <argsstring>()</argsstring>
+        <name>saveTexture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1852" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1851" bodyend="1854"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a0be8ecb3a13b6b780a202be089ccd1f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_rage_pixel_bitmap" kindref="compound">RagePixelBitmap</ref></type>
+        <definition>RagePixelBitmap RagePixelSpriteEditor.GrabSprite</definition>
+        <argsstring>(Rect spriteUV)</argsstring>
+        <name>GrabSprite</name>
+        <param>
+          <type>Rect</type>
+          <declname>spriteUV</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1857" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1856" bodyend="1866"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a410c24a826310dff5a0a09a05064d96e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_rage_pixel_bitmap" kindref="compound">RagePixelBitmap</ref></type>
+        <definition>RagePixelBitmap RagePixelSpriteEditor.GrabRectFromSpritesheet</definition>
+        <argsstring>(RagePixelTexelRect rect)</argsstring>
+        <name>GrabRectFromSpritesheet</name>
+        <param>
+          <type><ref refid="class_rage_pixel_texel_rect" kindref="compound">RagePixelTexelRect</ref></type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1869" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1868" bodyend="1881"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a12ca192ebb349ffaccc9d53f1805ef85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.CutRectInSpritesheet</definition>
+        <argsstring>(RagePixelTexelRect rect, Rect spriteUV)</argsstring>
+        <name>CutRectInSpritesheet</name>
+        <param>
+          <type><ref refid="class_rage_pixel_texel_rect" kindref="compound">RagePixelTexelRect</ref></type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>spriteUV</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1884" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1883" bodyend="1896"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a2abd45da3cab0deeca35b1a35d536cde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.PasteBitmapToSpritesheet</definition>
+        <argsstring>(RagePixelTexel position, Rect spriteUV, RagePixelBitmap bitmap)</argsstring>
+        <name>PasteBitmapToSpritesheet</name>
+        <param>
+          <type><ref refid="class_rage_pixel_texel" kindref="compound">RagePixelTexel</ref></type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>spriteUV</declname>
+        </param>
+        <param>
+          <type><ref refid="class_rage_pixel_bitmap" kindref="compound">RagePixelBitmap</ref></type>
+          <declname>bitmap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1899" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1898" bodyend="1911"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1af24a50a2a9395d577a2cf20581930e22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.PasteBitmapToSpritesheetAlpha</definition>
+        <argsstring>(RagePixelTexel position, Rect spriteUV, RagePixelBitmap bitmap)</argsstring>
+        <name>PasteBitmapToSpritesheetAlpha</name>
+        <param>
+          <type><ref refid="class_rage_pixel_texel" kindref="compound">RagePixelTexel</ref></type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>spriteUV</declname>
+        </param>
+        <param>
+          <type><ref refid="class_rage_pixel_bitmap" kindref="compound">RagePixelBitmap</ref></type>
+          <declname>bitmap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1914" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1913" bodyend="1929"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1aa88987839d4c79686893913826ffc484" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelSpriteEditor.InvokeOnSelectedEvent</definition>
+        <argsstring>()</argsstring>
+        <name>InvokeOnSelectedEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1932" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1931" bodyend="1938"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1add5dfd38c1894275f4f6a3b75d6e2f0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Camera</type>
+        <definition>Camera RagePixelSpriteEditor.GetSceneCamera</definition>
+        <argsstring>()</argsstring>
+        <name>GetSceneCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1941" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1940" bodyend="1944"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a45f096459edb8fd0118ce4a9750cf83f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int RagePixelSpriteEditor.GetAtlasCellCount</definition>
+        <argsstring>(RagePixelSpriteSheet[] spriteSheets, Material atlas)</argsstring>
+        <name>GetAtlasCellCount</name>
+        <param>
+          <type><ref refid="class_rage_pixel_sprite_sheet" kindref="compound">RagePixelSpriteSheet</ref>[]</type>
+          <declname>spriteSheets</declname>
+        </param>
+        <param>
+          <type>Material</type>
+          <declname>atlas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1947" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1946" bodyend="1962"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1ac1fda321f7e80ea33ce3aa1f37cb1f0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool RagePixelSpriteEditor.SceneCameraFacingCorrectly</definition>
+        <argsstring>()</argsstring>
+        <name>SceneCameraFacingCorrectly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1965" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1964" bodyend="1981"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1a0d8e7bcb9d8066536c93dc6b347008b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>Color RagePixelSpriteEditor.GetSceneButtonColor</definition>
+        <argsstring>(bool active)</argsstring>
+        <name>GetSceneButtonColor</name>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1984" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1983" bodyend="1993"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_rage_pixel_sprite_editor_1ab8a1ab39f947f074d5d4b8dbdfbe8c73" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int RagePixelSpriteEditor.RandomKey</definition>
+        <argsstring>()</argsstring>
+        <name>RandomKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="1996" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="1995" bodyend="2003"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" line="10" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelSpriteEditor.cs" bodystart="9" bodyend="2004"/>
+    <listofallmembers>
+      <member refid="class_rage_pixel_sprite_editor_1aee0173824c0d219c6260571d8c711057" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>_animStripGUI</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a26d74a3794f1ea2fd8754313c55cf198" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>_brush11</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a6524d4e455227cff83ad8253d3582991" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>_brush33</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1ab6b72716fc82e2b99c57e048fd46bee3" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>_brush55</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a8c101ffa83e5c926a4fa7ddc883046f3" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>_meshFilter</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a114cf3dab3157d6b918c132c2f7398be" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>_meshRenderer</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1abb17c14859ce00e749929a57263ea126" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>_paintColorPickerGUI</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1aea20c335db186370ff59882d1cea2e53" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>_paletteGUI</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1acb4a57ea0d34d2827867eb36a0bd4a58" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>_ragePixelSprite</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a936c91e1c663214c22f4e8ad966609da" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>_replaceColorPickerGUI</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1af538a7fa3e96e0bfa8486311aebe6ebe" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>_spriteSheetGUI</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a0648a344b4812038c1eef32aff8df34b" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>_spritesheetTexture</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1adc9ca5b140961362a8d950ff4016a65f" prot="protected" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>animationStripEnabled</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1ad36c2076eec016e664f2704d6994d14f" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>animStripGUI</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1afd4fdd2e20bef0f131a38dbd11d0ffae" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>atlasTextureIsDirty</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a33e4a56c88b2fab4a9c05f73c23d5fa3" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>backBuffer</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a6f123c1c34b4a21495167dc415250bb1" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>brush</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a79710b59b471a6136a23351e47416c84" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>BrushType</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a985891f307eeeaf65c9941d33908b26a" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>brushType</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a4dfeacf83cb129326ef074521454ecfa" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>cancelColorReplacing</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1aba709a89389699f95f1513b301edb027" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>colorReplaceBuffer</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a12ca192ebb349ffaccc9d53f1805ef85" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>CutRectInSpritesheet</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a82c8e4a213e5ad71dda0ab5648f496a7" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>defaultSceneButtonHeight</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1aef1bda30994cde7ff961a3b1e43d1bc0" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>defaultSceneButtonWidth</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1ad4cb484e17cb477049427d13790c21bb" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>DoPaintUndo</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1ad8bb695c6fa75d819a89dcf6c524a030" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>DrawGizmos</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a02c9dfbdd9cdc1583e4edbb127e42100" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>DrawGrid9Gizmo</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a3a544568283528ebba2d8325e9b343c0" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>DrawSelectionBox</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a937c11252a482e51e647b64a71c01614" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>DrawSpriteBoundsGizmo</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a2669880346c608f99177088e63145ac2" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>FloodFill</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1aaa5138d6175e133bf3e8c263ed874267" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>frontBuffer</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a330aba56a11838b6181601cb01dadc63" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>frontBufferDragStartMousePosition</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a428f68c22053f243849a47b7afd7634f" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>frontBufferDragStartPosition</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a7286136f42dd0e1d881a4690156b2eec" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>frontBufferPosition</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a45f096459edb8fd0118ce4a9750cf83f" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>GetAtlasCellCount</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a0532309139a8f9f7c4c5b6e71062c3d3" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>GetPivotOffset</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a0c5f3d9da26f922911d57bd3bdb86c14" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>getScaledImage</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a0d8e7bcb9d8066536c93dc6b347008b5" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>GetSceneButtonColor</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1add5dfd38c1894275f4f6a3b75d6e2f0b" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>GetSceneCamera</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a410c24a826310dff5a0a09a05064d96e" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>GrabRectFromSpritesheet</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a0be8ecb3a13b6b780a202be089ccd1f8" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>GrabSprite</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a1f45e447118a04d65184985d1fa131aa" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>HandleAnimationGUI</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a6f015ee37d0984ddb036163918ff0dee" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>HandleCameraWarnings</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a152eff60ce878f587944ed3edf0fa35c" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>HandleColorPickerGUI</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a93e781f61798e4e66e95550acd3f17b9" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>HandleInspectorSpritesheetRemove</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a229e952e89aa9b5f12a12ee5674959df" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>HandleKeyboard</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a973ba2ff7fadbccbf006ba87830b963f" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>HandleModeDefault</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a521b2672d069b69d3a571995307416d8" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>HandleModeFill</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1ad0feb0ca5388e3f4dd434516313dd5ad" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>HandleModePen</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a341fec8628bc0ac48804235be1a7fb4c" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>HandleModeResize</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a8b3e425e2486c17a190f005e00280c24" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>HandleModeSelect</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1aa649a55f3459233211b08d20a8f3becf" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>HandlePaintGUI</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a4a498d9ae58790a8e74a71fa7f9edb30" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>HandlePaletteGUI</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a3aac686749b1329d9bc2a8bba23769d9" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>handleSize</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a7d4ee008b005cb9b3568325edcd872b2" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>InitializeEmptyProject</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1aa88987839d4c79686893913826ffc484" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>InvokeOnSelectedEvent</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1ae06dcfe0715068d50e4d3bd6677cbe18" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>justSelected</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a1f23f91644708d626bb089bd0cd56ba7" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>meshFilter</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a1f9778108172bd7641db90fc7e20c347" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>meshRenderer</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1afac7a37bca7d73aefc52b51ca2c9a8ab" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>Mode</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1aa22fd81df35bcf7e4a2b2fe06d21bc64" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>mode</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a703dd66063d0f6c6a9d82d72b5ec1119" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>OnDestroy</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a57674859bb00c2af0f92e7015fc0ad13" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a082cb275014bd9311fd08308ed928141" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>OnSceneGUI</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a8ab6e2d3cf94b4796dc3d7fbb6dfdab4" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>OnSelected</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a77d755c98139a5778aa663370f0f379b" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>paintColorPickerGUI</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a07a08b53b235f342c76579e5d79bd0d2" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>paintUndoSaved</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1ab50c24b0e49a43621d568bd34f4c3cec" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>paletteGUI</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a2abd45da3cab0deeca35b1a35d536cde" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>PasteBitmapToSpritesheet</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1af24a50a2a9395d577a2cf20581930e22" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>PasteBitmapToSpritesheetAlpha</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a53fdfd957adbeafc33ed0efd7d252595" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>ragePixelSprite</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1ab8a1ab39f947f074d5d4b8dbdfbe8c73" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>RandomKey</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1ad35b0f96df30dfcf4e0e15ca920485b4" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>rectangleStart</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a85bf0f47bd9e6a6c7d7488c7046d8dc5" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>RefreshPreviewLayer</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a8e27152ebda2379cad1f19a1a4017fbf" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>replaceColorPickerGUI</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a3a71bf8341e51b17fd396d7c8a25fac7" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>SavePaintUndo</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a95997ede63bd3c96b68026269dab5f66" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>saveTexture</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a30c7562a7e7e0d023fdbd0a681d5a78a" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>sceneCamera</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1ac1fda321f7e80ea33ce3aa1f37cb1f0b" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>SceneCameraFacingCorrectly</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a8b5503b262b6075857da931765827225" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>SceneGUIInit</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a0cd8206ca403cb0bceb729d130828e30" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>scenePixelHeight</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1acde76b9a6b5c75a732fab826cfa5d295" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>scenePixelWidth</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a2ed39c97d527f8d25909bdbaf99321e8" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>sceneScreenToWorldPoint</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a9af939a80dea5cc0cb1458b715f32007" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>selection</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a3f99aa19916739d4d11d7d1829c1a1af" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>selectionActive</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a719b5797ed195d3c4bb1b0c504ccfdde" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>selectionStart</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a5ba80f510b8538d1d7a49ef7dd2221a9" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>ShowDebugInfo</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1afb7dfefbda90bca8878a299354ded725" prot="private" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>showGrid9Gizmo</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1afe0768b737d8ea57833ec078c094e628" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>spriteSheetGUI</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1aca2fbb26a33386e6e7ef07b2f6dd21aa" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>spritesheetTexture</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1ac8c634d551c16e7ca5c561b79e7bcfbf" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>TexelCoordsToWorld</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1ac8178fe128b2c547d150dc9ee9644459" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>worldToSceneScreenPoint</name></member>
+      <member refid="class_rage_pixel_sprite_editor_1a817f7ee826ab5510a5c045a9361f4104" prot="public" virt="non-virtual"><scope>RagePixelSpriteEditor</scope><name>WorldToTexelCoords</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

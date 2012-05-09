@@ -1,0 +1,96 @@
+.TH "RagePixelRow" 3 "Tue May 8 2012" "RagePixel" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+RagePixelRow \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBRagePixelCell\fP \fBInsertCell\fP (int index, int key)"
+.br
+.ti -1c
+.RI "void \fBRemoveCellByKey\fP (int key)"
+.br
+.ti -1c
+.RI "void \fBMoveCell\fP (int fromIndex, int toIndex)"
+.br
+.ti -1c
+.RI "int \fBGetKey\fP (int index)"
+.br
+.ti -1c
+.RI "int \fBGetIndex\fP (int key)"
+.br
+.ti -1c
+.RI "\fBRagePixelCell\fP \fBGetCell\fP (int key)"
+.br
+.ti -1c
+.RI "void \fBRemoveCellByIndex\fP (int index)"
+.br
+.ti -1c
+.RI "\fBRagePixelAnimation\fP \fBAddAnimation\fP ()"
+.br
+.ti -1c
+.RI "void \fBRemoveAnimation\fP (int index)"
+.br
+.ti -1c
+.RI "\fBRagePixelAnimation\fP \fBGetAnimationByName\fP (string name)"
+.br
+.ti -1c
+.RI "void \fBCopyAnimationsFrom\fP (\fBRagePixelRow\fP other, bool append=false)"
+.br
+.ti -1c
+.RI "void \fBClear\fP ()"
+.br
+.ti -1c
+.RI "void \fBClearUndoHistory\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBpixelSizeX\fP"
+.br
+.ti -1c
+.RI "int \fBpixelSizeY\fP"
+.br
+.ti -1c
+.RI "int \fBnewPixelSizeX\fP"
+.br
+.ti -1c
+.RI "int \fBnewPixelSizeY\fP"
+.br
+.ti -1c
+.RI "int \fBkey\fP"
+.br
+.ti -1c
+.RI "string \fBname\fP"
+.br
+.ti -1c
+.RI "string \fBfontCharacter\fP = ''"
+.br
+.ti -1c
+.RI "int \fBfontYOffset\fP = 0"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "\fBRagePixelAnimation\fP[] \fBanimations\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "\fBRagePixelCell\fP[] \fBcells\fP\fC [get, set]\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 7 of file RagePixelRow\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RagePixel from the source code\&.

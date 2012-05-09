@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_rage_pixel_animation" kind="class" prot="public">
+    <compoundname>RagePixelAnimation</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_animation_1a4038df9daf7a413b5646cee41b182911" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string RagePixelAnimation.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelAnimation.cs" line="7" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelAnimation.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_animation_1a24da08f4d3a777db979e068e8f115d8a" prot="public" static="no" mutable="no">
+        <type>RagePixelSprite.AnimationMode</type>
+        <definition>RagePixelSprite.AnimationMode RagePixelAnimation.mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <initializer> 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelAnimation.cs" line="8" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelAnimation.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_animation_1a64485d447bc004c4ba8eade67219680c" prot="public" static="no" mutable="no">
+        <type>RagePixelSprite.FrameMode</type>
+        <definition>RagePixelSprite.FrameMode RagePixelAnimation.frameMode</definition>
+        <argsstring></argsstring>
+        <name>frameMode</name>
+        <initializer> 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelAnimation.cs" line="9" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelAnimation.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_animation_1a7e933354127c1d51515ff8ee568a1cdd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelAnimation.startIndex</definition>
+        <argsstring></argsstring>
+        <name>startIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelAnimation.cs" line="12" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelAnimation.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_animation_1a9502946898c421494831e3cb8cb7981d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelAnimation.endIndex</definition>
+        <argsstring></argsstring>
+        <name>endIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelAnimation.cs" line="13" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelAnimation.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_animation_1a1cf893f3f61d68ca236b4347088f3cde" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] RagePixelAnimation.frames</definition>
+        <argsstring></argsstring>
+        <name>frames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelAnimation.cs" line="16" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelAnimation.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rage_pixel_animation_1a71e2dff56a081d5e88439e6484831aab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_rage_pixel_animation" kindref="compound">RagePixelAnimation</ref></type>
+        <definition>RagePixelAnimation RagePixelAnimation.Clone</definition>
+        <argsstring>()</argsstring>
+        <name>Clone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelAnimation.cs" line="19" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelAnimation.cs" bodystart="18" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="58">
+        <label>IRagePixel</label>
+        <link refid="interface_i_rage_pixel"/>
+      </node>
+      <node id="59">
+        <label>RagePixelSpriteSheet</label>
+        <link refid="class_rage_pixel_sprite_sheet"/>
+      </node>
+      <node id="56">
+        <label>RagePixelAnimation</label>
+        <link refid="class_rage_pixel_animation"/>
+        <childnode refid="57" relation="usage">
+          <edgelabel>frameMode</edgelabel>
+          <edgelabel>mode</edgelabel>
+        </childnode>
+      </node>
+      <node id="57">
+        <label>RagePixelSprite</label>
+        <link refid="class_rage_pixel_sprite"/>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+        <childnode refid="59" relation="usage">
+          <edgelabel>spriteSheet</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelAnimation.cs" line="6" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelAnimation.cs" bodystart="5" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_rage_pixel_animation_1a71e2dff56a081d5e88439e6484831aab" prot="public" virt="non-virtual"><scope>RagePixelAnimation</scope><name>Clone</name></member>
+      <member refid="class_rage_pixel_animation_1a9502946898c421494831e3cb8cb7981d" prot="public" virt="non-virtual"><scope>RagePixelAnimation</scope><name>endIndex</name></member>
+      <member refid="class_rage_pixel_animation_1a64485d447bc004c4ba8eade67219680c" prot="public" virt="non-virtual"><scope>RagePixelAnimation</scope><name>frameMode</name></member>
+      <member refid="class_rage_pixel_animation_1a1cf893f3f61d68ca236b4347088f3cde" prot="public" virt="non-virtual"><scope>RagePixelAnimation</scope><name>frames</name></member>
+      <member refid="class_rage_pixel_animation_1a24da08f4d3a777db979e068e8f115d8a" prot="public" virt="non-virtual"><scope>RagePixelAnimation</scope><name>mode</name></member>
+      <member refid="class_rage_pixel_animation_1a4038df9daf7a413b5646cee41b182911" prot="public" virt="non-virtual"><scope>RagePixelAnimation</scope><name>name</name></member>
+      <member refid="class_rage_pixel_animation_1a7e933354127c1d51515ff8ee568a1cdd" prot="public" virt="non-virtual"><scope>RagePixelAnimation</scope><name>startIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

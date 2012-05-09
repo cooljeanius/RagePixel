@@ -1,0 +1,115 @@
+.TH "RagePixelAnimStripGUI" 3 "Tue May 8 2012" "RagePixel" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+RagePixelAnimStripGUI \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBRagePixelAnimStripGUI\fP (\fBRagePixelSpriteSheetGUI\fP spriteSheetGUI)"
+.br
+.ti -1c
+.RI "bool \fBsizeIsDirty\fP (int newMaxWidth)"
+.br
+.ti -1c
+.RI "void \fBCreateTextureInstance\fP ()"
+.br
+.ti -1c
+.RI "void \fBRefresh\fP ()"
+.br
+.ti -1c
+.RI "int \fBGetRowIndex\fP (int localX, int localY)"
+.br
+.ti -1c
+.RI "bool \fBHandleGUIEvent\fP (Event ev)"
+.br
+.ti -1c
+.RI "void \fBCleanExit\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "Color \fBbackgroundColor\fP"
+.br
+.ti -1c
+.RI "\fBRagePixelSpriteSheetGUI\fP \fBspriteSheetGUI\fP"
+.br
+.ti -1c
+.RI "bool \fBvisible\fP = false"
+.br
+.ti -1c
+.RI "bool \fBisDirty\fP = false"
+.br
+.ti -1c
+.RI "int \fBdragTargetIndex\fP = -1"
+.br
+.ti -1c
+.RI "int \fBpositionX\fP"
+.br
+.ti -1c
+.RI "int \fBpositionY\fP"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "Rect \fBbounds\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "Texture2D \fBanimStripTexture\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBRagePixelSpriteSheet\fP \fBspriteSheet\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "int \fBcurrentRowKey\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "int \fBcurrentCellKey\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "int \fBmaxWidth\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "int \fBthumbnailSize\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "int \fBtableWidth\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "int \fBtableHeight\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "int \fBpixelWidth\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "int \fBpixelHeight\fP\fC [get, set]\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 5 of file RagePixelAnimStripGUI\&.cs\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "Color RagePixelAnimStripGUI\&.backgroundColor"
+\fBInitial value:\fP
+.PP
+.nf
+
+        (PlayerSettings\&.advancedLicense) ?
+        new Color(0\&.2f, 0\&.2f, 0\&.2f, 1f) :
+        new Color(0\&.4f, 0\&.4f, 0\&.4f, 1f)
+.fi
+.PP
+Definition at line 7 of file RagePixelAnimStripGUI\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RagePixel from the source code\&.

@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_rage_pixel_sprite.html" title="RagePixelSprite" alt="" coords="63,96,187,123"/>
+<area shape="rect" id="node4" href="$interface_i_rage_pixel.html" title="IRagePixel" alt="" coords="5,5,96,32"/>
+<area shape="rect" id="node6" href="$class_rage_pixel_sprite_sheet.html" title="RagePixelSpriteSheet" alt="" coords="120,5,283,32"/>
+</map>

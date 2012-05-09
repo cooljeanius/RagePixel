@@ -1,0 +1,490 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="interface_i_rage_pixel" kind="interface" prot="public">
+    <compoundname>IRagePixel</compoundname>
+    <derivedcompoundref refid="class_rage_pixel_sprite" prot="public" virt="non-virtual">RagePixelSprite</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_i_rage_pixel_1aa84818acdc7e9d2ef80230323d1fc050" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRagePixel.SetSprite</definition>
+        <argsstring>(string name)</argsstring>
+        <name>SetSprite</name>
+        <reimplementedby refid="class_rage_pixel_sprite_1a219cd468f9ed71ca548c104efcbd5a77">SetSprite</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="6"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_rage_pixel_1a47e40c8dbd24bf9ab622ac7043073035" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRagePixel.SetSprite</definition>
+        <argsstring>(string name, int frameIndex)</argsstring>
+        <name>SetSprite</name>
+        <reimplementedby refid="class_rage_pixel_sprite_1a1f6fd98f4d022d3e3bcec092a6b82edf">SetSprite</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frameIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="7"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_rage_pixel_1a0879278adb76f52123970c44ebac453b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRagePixel.PlayAnimation</definition>
+        <argsstring>()</argsstring>
+        <name>PlayAnimation</name>
+        <reimplementedby refid="class_rage_pixel_sprite_1ae557b68f6e00fe1db13c875eaf02b1ac">PlayAnimation</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="8"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_rage_pixel_1a9d87548ffed46340c0f6d711b7c59991" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRagePixel.PlayAnimation</definition>
+        <argsstring>(bool forceRestart)</argsstring>
+        <name>PlayAnimation</name>
+        <reimplementedby refid="class_rage_pixel_sprite_1ad4ec1d4f93bbc698c67469baf5c3ec2e">PlayAnimation</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>forceRestart</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="9"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_rage_pixel_1a4061820f2995a1eace11719a6c32e173" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRagePixel.PlayAnimation</definition>
+        <argsstring>(bool forceRestart, int rangeMinIndex, int rangeMaxIndex, int priority=0)</argsstring>
+        <name>PlayAnimation</name>
+        <reimplementedby refid="class_rage_pixel_sprite_1a5187d2f5a02e4a22b05cdc2f630f2f4c">PlayAnimation</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>forceRestart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rangeMinIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rangeMaxIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>priority</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="10"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_rage_pixel_1a107544fa8c2f3f4a2913a39926253dbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRagePixel.PlayAnimation</definition>
+        <argsstring>(bool forceRestart, int[] frames, int pri=0)</argsstring>
+        <name>PlayAnimation</name>
+        <reimplementedby refid="class_rage_pixel_sprite_1a2afe47975aca01efb29dcca92053baea">PlayAnimation</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>forceRestart</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>frames</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pri</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="11"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_rage_pixel_1a57974dc9e9794eda716f2c52471f3a5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRagePixel.PlayAnimation</definition>
+        <argsstring>(bool forceRestart, RagePixelSprite.AnimationMode animMode, int rangeMinIndex, int rangeMaxIndex, int priority=0)</argsstring>
+        <name>PlayAnimation</name>
+        <reimplementedby refid="class_rage_pixel_sprite_1af8fdce57834b01a7b7b9f89a2c559455">PlayAnimation</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>forceRestart</declname>
+        </param>
+        <param>
+          <type>RagePixelSprite.AnimationMode</type>
+          <declname>animMode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rangeMinIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rangeMaxIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>priority</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="12"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_rage_pixel_1a38386cb8b12865b0754fb5e0d326e869" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRagePixel.PlayAnimation</definition>
+        <argsstring>(bool forceRestart, RagePixelSprite.AnimationMode animMode, int[] frames, int priority=0)</argsstring>
+        <name>PlayAnimation</name>
+        <reimplementedby refid="class_rage_pixel_sprite_1a72d3d3695e99a5c19703c17efe2d8b54">PlayAnimation</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>forceRestart</declname>
+        </param>
+        <param>
+          <type>RagePixelSprite.AnimationMode</type>
+          <declname>animMode</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>frames</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>priority</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="13"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_rage_pixel_1a238311c1825d86210ed9f479f144c19c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRagePixel.PlayNamedAnimation</definition>
+        <argsstring>(string name, int priority=0)</argsstring>
+        <name>PlayNamedAnimation</name>
+        <reimplementedby refid="class_rage_pixel_sprite_1a8096c5255560cb25ee9af38282825bf2">PlayNamedAnimation</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>priority</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="14"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_rage_pixel_1a7b51f0c20206c632592733bb20c25989" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRagePixel.PlayNamedAnimation</definition>
+        <argsstring>(string name, bool forceRestart, int priority=0)</argsstring>
+        <name>PlayNamedAnimation</name>
+        <reimplementedby refid="class_rage_pixel_sprite_1a55e3e799da237798826536b4c8e0358b">PlayNamedAnimation</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>forceRestart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>priority</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="15"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_rage_pixel_1ad70e7b7b47ca30e5d292480ed722ab15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRagePixel.PlayNamedAnimation</definition>
+        <argsstring>(string name, bool forceRestart, float delayFirstFrame, int priority=0)</argsstring>
+        <name>PlayNamedAnimation</name>
+        <reimplementedby refid="class_rage_pixel_sprite_1ab70e1719c79f8e0589e2bdb8c8c54bcf">PlayNamedAnimation</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>forceRestart</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>delayFirstFrame</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>priority</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="16"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_rage_pixel_1a0d6fc45f3299498cfd21301904bea7e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IRagePixel.HasNamedAnimation</definition>
+        <argsstring>(string name)</argsstring>
+        <name>HasNamedAnimation</name>
+        <reimplementedby refid="class_rage_pixel_sprite_1a8099728fcb040eb0df549263f58a1a43">HasNamedAnimation</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="17"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_rage_pixel_1a48ca7f62bcce0f0d25dfce3da97c7155" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IRagePixel.isPlaying</definition>
+        <argsstring>()</argsstring>
+        <name>isPlaying</name>
+        <reimplementedby refid="class_rage_pixel_sprite_1a7bb73e4f901a24ebd575741b039406cf">isPlaying</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="18"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_rage_pixel_1aa0e42c7b01a5c996d88e3b439d57362a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRagePixel.StopAnimation</definition>
+        <argsstring>()</argsstring>
+        <name>StopAnimation</name>
+        <reimplementedby refid="class_rage_pixel_sprite_1a54be5b5042a4ba6823ba6aee7fdf45db">StopAnimation</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="19"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_rage_pixel_1a272cfec9fa3b80588c59e7381e37b2f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRagePixel.GetSizeX</definition>
+        <argsstring>()</argsstring>
+        <name>GetSizeX</name>
+        <reimplementedby refid="class_rage_pixel_sprite_1ac506ca3a0d23206f0001e5cefd798863">GetSizeX</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="20"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_rage_pixel_1a57f635a748ceea4222b0891a0b82d139" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRagePixel.GetSizeY</definition>
+        <argsstring>()</argsstring>
+        <name>GetSizeY</name>
+        <reimplementedby refid="class_rage_pixel_sprite_1a5a63873e353ef9291a5f265e4e3baff0">GetSizeY</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_rage_pixel_1a9fb4204bcc05381c43ab2a4ea0eefbc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRagePixel.SetSize</definition>
+        <argsstring>(int width, int height)</argsstring>
+        <name>SetSize</name>
+        <reimplementedby refid="class_rage_pixel_sprite_1a839ac9cf6b178d5631b5b6dd8e5d81ab">SetSize</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="22"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_rage_pixel_1a66d97dacd871c546af228bd569194a5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Rect</type>
+        <definition>Rect IRagePixel.GetRect</definition>
+        <argsstring>()</argsstring>
+        <name>GetRect</name>
+        <reimplementedby refid="class_rage_pixel_sprite_1afd16f57c9ad6f99ff45a46fa518d6562">GetRect</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="23"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_rage_pixel_1a6bde32575fefc327f9b1df98773fa438" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRagePixel.SetHorizontalFlip</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>SetHorizontalFlip</name>
+        <reimplementedby refid="class_rage_pixel_sprite_1ae63857ebad450061821f45adb2989c03">SetHorizontalFlip</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="24"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_rage_pixel_1a140c7a6f5fdbfd25132bb6ffb6becd2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRagePixel.SetVerticalFlip</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>SetVerticalFlip</name>
+        <reimplementedby refid="class_rage_pixel_sprite_1a633521badd38ad281a51d97a84c9e3bf">SetVerticalFlip</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="25"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_rage_pixel_1ab446f50e5fe3aeb3713ac82dce738431" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRagePixel.SetTintColor</definition>
+        <argsstring>(Color color)</argsstring>
+        <name>SetTintColor</name>
+        <reimplementedby refid="class_rage_pixel_sprite_1a4d2cdda97935f9554088c3a3d2fd24fe">SetTintColor</reimplementedby>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="52">
+        <label>IRagePixel</label>
+        <link refid="interface_i_rage_pixel"/>
+      </node>
+      <node id="53">
+        <label>RagePixelSprite</label>
+        <link refid="class_rage_pixel_sprite"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" line="5" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/IRagePixel.cs" bodystart="4" bodyend="27"/>
+    <listofallmembers>
+      <member refid="interface_i_rage_pixel_1a66d97dacd871c546af228bd569194a5b" prot="public" virt="non-virtual"><scope>IRagePixel</scope><name>GetRect</name></member>
+      <member refid="interface_i_rage_pixel_1a272cfec9fa3b80588c59e7381e37b2f6" prot="public" virt="non-virtual"><scope>IRagePixel</scope><name>GetSizeX</name></member>
+      <member refid="interface_i_rage_pixel_1a57f635a748ceea4222b0891a0b82d139" prot="public" virt="non-virtual"><scope>IRagePixel</scope><name>GetSizeY</name></member>
+      <member refid="interface_i_rage_pixel_1a0d6fc45f3299498cfd21301904bea7e0" prot="public" virt="non-virtual"><scope>IRagePixel</scope><name>HasNamedAnimation</name></member>
+      <member refid="interface_i_rage_pixel_1a48ca7f62bcce0f0d25dfce3da97c7155" prot="public" virt="non-virtual"><scope>IRagePixel</scope><name>isPlaying</name></member>
+      <member refid="interface_i_rage_pixel_1a0879278adb76f52123970c44ebac453b" prot="public" virt="non-virtual"><scope>IRagePixel</scope><name>PlayAnimation</name></member>
+      <member refid="interface_i_rage_pixel_1a9d87548ffed46340c0f6d711b7c59991" prot="public" virt="non-virtual"><scope>IRagePixel</scope><name>PlayAnimation</name></member>
+      <member refid="interface_i_rage_pixel_1a4061820f2995a1eace11719a6c32e173" prot="public" virt="non-virtual"><scope>IRagePixel</scope><name>PlayAnimation</name></member>
+      <member refid="interface_i_rage_pixel_1a107544fa8c2f3f4a2913a39926253dbd" prot="public" virt="non-virtual"><scope>IRagePixel</scope><name>PlayAnimation</name></member>
+      <member refid="interface_i_rage_pixel_1a57974dc9e9794eda716f2c52471f3a5b" prot="public" virt="non-virtual"><scope>IRagePixel</scope><name>PlayAnimation</name></member>
+      <member refid="interface_i_rage_pixel_1a38386cb8b12865b0754fb5e0d326e869" prot="public" virt="non-virtual"><scope>IRagePixel</scope><name>PlayAnimation</name></member>
+      <member refid="interface_i_rage_pixel_1a238311c1825d86210ed9f479f144c19c" prot="public" virt="non-virtual"><scope>IRagePixel</scope><name>PlayNamedAnimation</name></member>
+      <member refid="interface_i_rage_pixel_1a7b51f0c20206c632592733bb20c25989" prot="public" virt="non-virtual"><scope>IRagePixel</scope><name>PlayNamedAnimation</name></member>
+      <member refid="interface_i_rage_pixel_1ad70e7b7b47ca30e5d292480ed722ab15" prot="public" virt="non-virtual"><scope>IRagePixel</scope><name>PlayNamedAnimation</name></member>
+      <member refid="interface_i_rage_pixel_1a6bde32575fefc327f9b1df98773fa438" prot="public" virt="non-virtual"><scope>IRagePixel</scope><name>SetHorizontalFlip</name></member>
+      <member refid="interface_i_rage_pixel_1a9fb4204bcc05381c43ab2a4ea0eefbc0" prot="public" virt="non-virtual"><scope>IRagePixel</scope><name>SetSize</name></member>
+      <member refid="interface_i_rage_pixel_1aa84818acdc7e9d2ef80230323d1fc050" prot="public" virt="non-virtual"><scope>IRagePixel</scope><name>SetSprite</name></member>
+      <member refid="interface_i_rage_pixel_1a47e40c8dbd24bf9ab622ac7043073035" prot="public" virt="non-virtual"><scope>IRagePixel</scope><name>SetSprite</name></member>
+      <member refid="interface_i_rage_pixel_1ab446f50e5fe3aeb3713ac82dce738431" prot="public" virt="non-virtual"><scope>IRagePixel</scope><name>SetTintColor</name></member>
+      <member refid="interface_i_rage_pixel_1a140c7a6f5fdbfd25132bb6ffb6becd2f" prot="public" virt="non-virtual"><scope>IRagePixel</scope><name>SetVerticalFlip</name></member>
+      <member refid="interface_i_rage_pixel_1aa0e42c7b01a5c996d88e3b439d57362a" prot="public" virt="non-virtual"><scope>IRagePixel</scope><name>StopAnimation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

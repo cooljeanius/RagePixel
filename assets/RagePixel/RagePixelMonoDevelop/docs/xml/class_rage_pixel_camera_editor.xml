@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_rage_pixel_camera_editor" kind="class" prot="public">
+    <compoundname>RagePixelCameraEditor</compoundname>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_rage_pixel_camera_editor_1a698f619424430811240466f7bcb0471a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelCameraEditor.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelCameraEditor.cs" line="12" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelCameraEditor.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_camera_editor_1a799217354b3b2f8db4c1dfebd5a8e5b6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelCameraEditor.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelCameraEditor.cs" line="34" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelCameraEditor.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rage_pixel_camera_editor_1ac2dfa8ba0c03ed9ab3d641f6f88c41b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void RagePixelCameraEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelCameraEditor.cs" line="17" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelCameraEditor.cs" bodystart="16" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelCameraEditor.cs" line="8" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelCameraEditor.cs" bodystart="7" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_rage_pixel_camera_editor_1ac2dfa8ba0c03ed9ab3d641f6f88c41b6" prot="public" virt="non-virtual"><scope>RagePixelCameraEditor</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_rage_pixel_camera_editor_1a698f619424430811240466f7bcb0471a" prot="private" virt="non-virtual"><scope>RagePixelCameraEditor</scope><name>Start</name></member>
+      <member refid="class_rage_pixel_camera_editor_1a799217354b3b2f8db4c1dfebd5a8e5b6" prot="private" virt="non-virtual"><scope>RagePixelCameraEditor</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

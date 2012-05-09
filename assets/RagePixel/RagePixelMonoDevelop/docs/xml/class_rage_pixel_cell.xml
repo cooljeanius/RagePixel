@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_rage_pixel_cell" kind="class" prot="public">
+    <compoundname>RagePixelCell</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_cell_1a969905c914c47aac527f158118700f7d" prot="public" static="no" mutable="no">
+        <type>ArrayList</type>
+        <definition>ArrayList RagePixelCell.undoHistory</definition>
+        <argsstring></argsstring>
+        <name>undoHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCell.cs" line="8" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCell.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_cell_1a276c0bdf7c155d84fb2ce5b16d2f8c5e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelCell.key</definition>
+        <argsstring></argsstring>
+        <name>key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCell.cs" line="9" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCell.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_cell_1af31a44cf09be1bd7780d89074044cfc5" prot="public" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect RagePixelCell.uv</definition>
+        <argsstring></argsstring>
+        <name>uv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCell.cs" line="10" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCell.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_cell_1ad53f19eb2242bed2057669c3de676178" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RagePixelCell.delay</definition>
+        <argsstring></argsstring>
+        <name>delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCell.cs" line="11" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCell.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_cell_1a21284840098aec45984562cf551c2f56" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string RagePixelCell.importAssetPath</definition>
+        <argsstring></argsstring>
+        <name>importAssetPath</name>
+        <initializer>&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCell.cs" line="13" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCell.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rage_pixel_cell_1a033c25e8ece9145657733b2d85f1c971" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RagePixelCell.ClearUndoHistory</definition>
+        <argsstring>()</argsstring>
+        <name>ClearUndoHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCell.cs" line="16" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCell.cs" bodystart="15" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rage_pixel_cell_1ae970d9dde17dd874f51eaa132969fe61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList</type>
+        <definition>ArrayList RagePixelCell.GetUndoHistory</definition>
+        <argsstring>()</argsstring>
+        <name>GetUndoHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCell.cs" line="28" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCell.cs" bodystart="27" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCell.cs" line="6" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/code/RagePixelCell.cs" bodystart="5" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_rage_pixel_cell_1a033c25e8ece9145657733b2d85f1c971" prot="public" virt="non-virtual"><scope>RagePixelCell</scope><name>ClearUndoHistory</name></member>
+      <member refid="class_rage_pixel_cell_1ad53f19eb2242bed2057669c3de676178" prot="public" virt="non-virtual"><scope>RagePixelCell</scope><name>delay</name></member>
+      <member refid="class_rage_pixel_cell_1ae970d9dde17dd874f51eaa132969fe61" prot="public" virt="non-virtual"><scope>RagePixelCell</scope><name>GetUndoHistory</name></member>
+      <member refid="class_rage_pixel_cell_1a21284840098aec45984562cf551c2f56" prot="public" virt="non-virtual"><scope>RagePixelCell</scope><name>importAssetPath</name></member>
+      <member refid="class_rage_pixel_cell_1a276c0bdf7c155d84fb2ce5b16d2f8c5e" prot="public" virt="non-virtual"><scope>RagePixelCell</scope><name>key</name></member>
+      <member refid="class_rage_pixel_cell_1a969905c914c47aac527f158118700f7d" prot="public" virt="non-virtual"><scope>RagePixelCell</scope><name>undoHistory</name></member>
+      <member refid="class_rage_pixel_cell_1af31a44cf09be1bd7780d89074044cfc5" prot="public" virt="non-virtual"><scope>RagePixelCell</scope><name>uv</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

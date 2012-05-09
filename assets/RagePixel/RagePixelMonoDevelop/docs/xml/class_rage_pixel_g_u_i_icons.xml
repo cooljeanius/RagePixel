@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.0">
+  <compounddef id="class_rage_pixel_g_u_i_icons" kind="class" prot="public">
+    <compoundname>RagePixelGUIIcons</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_rage_pixel_g_u_i_icons_1a111ba6ef0c2508957c82b027b8c01849" prot="private" static="yes" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelGUIIcons._penIcon</definition>
+        <argsstring></argsstring>
+        <name>_penIcon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" line="7" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_g_u_i_icons_1a58181e2aac00e521ec510aaa9b127e56" prot="private" static="yes" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelGUIIcons._cursorIcon</definition>
+        <argsstring></argsstring>
+        <name>_cursorIcon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" line="8" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_g_u_i_icons_1a90ae7ab7126a32315a6dca1d573b8e02" prot="private" static="yes" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelGUIIcons._fillIcon</definition>
+        <argsstring></argsstring>
+        <name>_fillIcon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" line="9" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_g_u_i_icons_1acc76a61e5788e60583935ab15b199192" prot="private" static="yes" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelGUIIcons._animationIcon</definition>
+        <argsstring></argsstring>
+        <name>_animationIcon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" line="10" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_g_u_i_icons_1abb402eaaf487abf85aaa75bb5b2a5371" prot="private" static="yes" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelGUIIcons._replaceIcon</definition>
+        <argsstring></argsstring>
+        <name>_replaceIcon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" line="11" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_g_u_i_icons_1aea47db49cd15e3497fde6e6c0b35b076" prot="private" static="yes" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelGUIIcons._selectIcon</definition>
+        <argsstring></argsstring>
+        <name>_selectIcon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" line="12" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rage_pixel_g_u_i_icons_1a9ca0dd68c942e6aeb7e5dd281531e218" prot="private" static="yes" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelGUIIcons._resizeIcon</definition>
+        <argsstring></argsstring>
+        <name>_resizeIcon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" line="13" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_rage_pixel_g_u_i_icons_1a87b45f28f5ca0f2be732443f2cbfca78" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Color</type>
+        <definition>Color RagePixelGUIIcons.greenButtonColor</definition>
+        <argsstring></argsstring>
+        <name>greenButtonColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" line="28" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_g_u_i_icons_1aee4b00701ca7efa13161e0adb9b16a99" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Color</type>
+        <definition>Color RagePixelGUIIcons.redButtonColor</definition>
+        <argsstring></argsstring>
+        <name>redButtonColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" line="43" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_g_u_i_icons_1ac7b9e48b7f98841eaaf9b290f5535c04" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Color</type>
+        <definition>Color RagePixelGUIIcons.neutralButtonColor</definition>
+        <argsstring></argsstring>
+        <name>neutralButtonColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" line="58" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_g_u_i_icons_1aceb0ca52b7b7c23e60f08457623852db" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelGUIIcons.Pen</definition>
+        <argsstring></argsstring>
+        <name>Pen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" line="71" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_g_u_i_icons_1a78afe8761e4af43d38942117349df952" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelGUIIcons.Cursor</definition>
+        <argsstring></argsstring>
+        <name>Cursor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" line="84" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_g_u_i_icons_1a12f1647267f3868687264d3d2db00ff4" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelGUIIcons.Fill</definition>
+        <argsstring></argsstring>
+        <name>Fill</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" line="97" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_g_u_i_icons_1a9a8e1954267ae3074782893efe05dbee" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelGUIIcons.Animation</definition>
+        <argsstring></argsstring>
+        <name>Animation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" line="110" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_g_u_i_icons_1a9e721a935b0f5728db1d6d4547c77622" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelGUIIcons.Replace</definition>
+        <argsstring></argsstring>
+        <name>Replace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" line="123" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_g_u_i_icons_1aada2e43ef06fba7fd4d3082e9edae007" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelGUIIcons.Select</definition>
+        <argsstring></argsstring>
+        <name>Select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" line="136" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_rage_pixel_g_u_i_icons_1aa78c03d078278cdf739f977ac64bd3d4" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D RagePixelGUIIcons.Resize</definition>
+        <argsstring></argsstring>
+        <name>Resize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" line="149" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" line="6" bodyfile="/Users/ericgallager/RagePixel/assets/RagePixel/RagePixelMonoDevelop/editor/RagePixelGUIIcons.cs" bodystart="5" bodyend="151"/>
+    <listofallmembers>
+      <member refid="class_rage_pixel_g_u_i_icons_1acc76a61e5788e60583935ab15b199192" prot="private" virt="non-virtual"><scope>RagePixelGUIIcons</scope><name>_animationIcon</name></member>
+      <member refid="class_rage_pixel_g_u_i_icons_1a58181e2aac00e521ec510aaa9b127e56" prot="private" virt="non-virtual"><scope>RagePixelGUIIcons</scope><name>_cursorIcon</name></member>
+      <member refid="class_rage_pixel_g_u_i_icons_1a90ae7ab7126a32315a6dca1d573b8e02" prot="private" virt="non-virtual"><scope>RagePixelGUIIcons</scope><name>_fillIcon</name></member>
+      <member refid="class_rage_pixel_g_u_i_icons_1a111ba6ef0c2508957c82b027b8c01849" prot="private" virt="non-virtual"><scope>RagePixelGUIIcons</scope><name>_penIcon</name></member>
+      <member refid="class_rage_pixel_g_u_i_icons_1abb402eaaf487abf85aaa75bb5b2a5371" prot="private" virt="non-virtual"><scope>RagePixelGUIIcons</scope><name>_replaceIcon</name></member>
+      <member refid="class_rage_pixel_g_u_i_icons_1a9ca0dd68c942e6aeb7e5dd281531e218" prot="private" virt="non-virtual"><scope>RagePixelGUIIcons</scope><name>_resizeIcon</name></member>
+      <member refid="class_rage_pixel_g_u_i_icons_1aea47db49cd15e3497fde6e6c0b35b076" prot="private" virt="non-virtual"><scope>RagePixelGUIIcons</scope><name>_selectIcon</name></member>
+      <member refid="class_rage_pixel_g_u_i_icons_1a9a8e1954267ae3074782893efe05dbee" prot="public" virt="non-virtual"><scope>RagePixelGUIIcons</scope><name>Animation</name></member>
+      <member refid="class_rage_pixel_g_u_i_icons_1a78afe8761e4af43d38942117349df952" prot="public" virt="non-virtual"><scope>RagePixelGUIIcons</scope><name>Cursor</name></member>
+      <member refid="class_rage_pixel_g_u_i_icons_1a12f1647267f3868687264d3d2db00ff4" prot="public" virt="non-virtual"><scope>RagePixelGUIIcons</scope><name>Fill</name></member>
+      <member refid="class_rage_pixel_g_u_i_icons_1a87b45f28f5ca0f2be732443f2cbfca78" prot="public" virt="non-virtual"><scope>RagePixelGUIIcons</scope><name>greenButtonColor</name></member>
+      <member refid="class_rage_pixel_g_u_i_icons_1ac7b9e48b7f98841eaaf9b290f5535c04" prot="public" virt="non-virtual"><scope>RagePixelGUIIcons</scope><name>neutralButtonColor</name></member>
+      <member refid="class_rage_pixel_g_u_i_icons_1aceb0ca52b7b7c23e60f08457623852db" prot="public" virt="non-virtual"><scope>RagePixelGUIIcons</scope><name>Pen</name></member>
+      <member refid="class_rage_pixel_g_u_i_icons_1aee4b00701ca7efa13161e0adb9b16a99" prot="public" virt="non-virtual"><scope>RagePixelGUIIcons</scope><name>redButtonColor</name></member>
+      <member refid="class_rage_pixel_g_u_i_icons_1a9e721a935b0f5728db1d6d4547c77622" prot="public" virt="non-virtual"><scope>RagePixelGUIIcons</scope><name>Replace</name></member>
+      <member refid="class_rage_pixel_g_u_i_icons_1aa78c03d078278cdf739f977ac64bd3d4" prot="public" virt="non-virtual"><scope>RagePixelGUIIcons</scope><name>Resize</name></member>
+      <member refid="class_rage_pixel_g_u_i_icons_1aada2e43ef06fba7fd4d3082e9edae007" prot="public" virt="non-virtual"><scope>RagePixelGUIIcons</scope><name>Select</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
