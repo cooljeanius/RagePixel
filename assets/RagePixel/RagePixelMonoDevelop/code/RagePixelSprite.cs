@@ -136,7 +136,7 @@ public class RagePixelSprite : MonoBehaviour, IRagePixel {
 
 	void Start()
 	{
-		if(Application.isPlaying && playAnimation && gameObject.active)
+		if(Application.isPlaying && playAnimation && gameObject.activeInHierarchy)
 		{
 			nextAnimFrame = myTime + GetCurrentCell().delay / 1000f;
 		}
@@ -1067,9 +1067,9 @@ public class RagePixelSprite : MonoBehaviour, IRagePixel {
 				if(frameMode == FrameMode.Range)
 				{
 					return
-						GetCurrentRow().GetIndex(currentCellKey) < GetCurrentRow().cells.Length - 1 &&
-						animationMaxIndex < 0 ||
-						GetCurrentRow().GetIndex(currentCellKey) < animationMaxIndex;
+						(GetCurrentRow().GetIndex(currentCellKey) >= GetCurrentRow().cells.Length &&
+						 animationMaxIndex < 0) ||
+						GetCurrentRow().GetIndex(currentCellKey) >= animationMaxIndex;
 				}
 				else if(frameMode == FrameMode.Sequence)
 				{
@@ -1081,7 +1081,7 @@ public class RagePixelSprite : MonoBehaviour, IRagePixel {
 				if(frameMode == FrameMode.Range)
 				{
 					return
-						 GetCurrentRow().GetIndex(currentCellKey) > Mathf.Max(animationMinIndex, 0);
+						 GetCurrentRow().GetIndex(currentCellKey) <= Mathf.Max(animationMinIndex, 0);
 				}
 				else if(frameMode == FrameMode.Sequence)
 				{
@@ -1095,9 +1095,9 @@ public class RagePixelSprite : MonoBehaviour, IRagePixel {
 					if(frameMode == FrameMode.Range)
 					{
 						return
-							GetCurrentRow().GetIndex(currentCellKey) < GetCurrentRow().cells.Length - 1 &&
-							animationMaxIndex < 0 ||
-							GetCurrentRow().GetIndex(currentCellKey) < animationMaxIndex;
+							(GetCurrentRow().GetIndex(currentCellKey) >= GetCurrentRow().cells.Length &&
+							 animationMaxIndex < 0) ||
+							GetCurrentRow().GetIndex(currentCellKey) >= animationMaxIndex;
 					}
 					else if(frameMode == FrameMode.Sequence)
 					{
@@ -1110,7 +1110,7 @@ public class RagePixelSprite : MonoBehaviour, IRagePixel {
 					if(frameMode == FrameMode.Range)
 					{
 						return
-							GetCurrentRow().GetIndex(currentCellKey) > Mathf.Max(animationMinIndex, 0);
+							GetCurrentRow().GetIndex(currentCellKey) <= Mathf.Max(animationMinIndex, 0);
 					}
 					else if(frameMode == FrameMode.Sequence)
 					{
