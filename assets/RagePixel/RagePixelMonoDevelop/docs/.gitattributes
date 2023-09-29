@@ -1,3 +1,4 @@
 *.html linguist-documentation
 *.tex linguist-documentation
 *.rtf linguist-documentation
+man/man3/*.3 linguist-documentation
