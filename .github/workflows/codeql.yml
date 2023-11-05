@@ -71,7 +71,7 @@ jobs:
       if: matrix.language == 'csharp'
       run: |
         sudo apt-get -qq update
-        sudo apt-get install gtk-sharp2
+        sudo apt-get install gtk-sharp2 mono-gmcs doxygen
 
     # Autobuild attempts to build any compiled languages (C/C++, C#, Go, Java, or Swift).
     # If this step fails, then you should remove it and run the build manually (see below)
