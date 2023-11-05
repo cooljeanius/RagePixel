@@ -74,6 +74,11 @@ jobs:
 
     - name: Unity - Activate
       uses: game-ci/unity-activate@v2.0.0
+      if: matrix.language == 'csharp' && env.UNITY_LICENSE != ''
+      env:
+        UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+      with:
+        githubToken: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Dependencies
       if: matrix.language == 'csharp'
