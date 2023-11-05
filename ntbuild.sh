@@ -52,9 +52,10 @@ if test -e assets/RagePixel/RagePixelMonoDevelop/RagePixelMonoDevelop.csproj && 
 				fi; \
 				if test -x "$(which csc)" && test -n "$(csc 2>&1 | grep Microsoft)"; then \
 					echo "attempting to use csc to compile ${csfile}..."; \
-					csc "${csfile}"; \
+					csc "${csfile}" || wc -l "${csfile}" || cat "${csfile}"; \
 				fi; \
 			fi; \
 		done; \
+		find . -name '*.o' -exec cp -v {} . ";" || find . -name '*.obj' -exec cp -v {} . ";" || find . -name '*.lib' -exec cp -v {} . ";" || find . -name '*.dll' -exec cp -v {} . ";" || find . -name '*.a' -exec cp -v {} . ";" || find . -name '*.so' -exec cp -v {} . ";" || echo "failed copying something"
 	}; \
 fi
