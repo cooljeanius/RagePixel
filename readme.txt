@@ -3,10 +3,10 @@ Hi!
 Thank you for downloading RagePixel!
 
 To get started:
-http://ragepixel.com/quickstart
+http://web.archive.org/web/20161025110248/http://ragepixel.com/quickstart/
 
 More documentation:
-http://ragepixel.com/doc
+http://web.archive.org/web/20150920221726/http://ragepixel.com/doc/
 
 For bug reports and feedback, hit the forums:
 http://ragepixel.com/forum

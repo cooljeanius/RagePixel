@@ -10,16 +10,20 @@ if test -e assets/RagePixel/RagePixelMonoDevelop/RagePixelMonoDevelop.csproj && 
 		doxygen; \
 		CSFLAGS=""; \
 		dlldir="/usr/lib/pkgconfig/../../lib/cli"; \
-		for cslib in pango atk gdk gtk glib; do \
+		for cslib in pango atk gdk gtk glib unity unity-engine; do \
 			if test -r "${dlldir}"/"${cslib}"-sharp-2.0/"${cslib}"-sharp.dll; then \
 				CSFLAGS="${CSFLAGS} -r:${dlldir}/${cslib}-sharp-2.0/${cslib}-sharp.dll"; \
+			elif test -r "${dlldir}"/"${cslib}"-sharp/"${cslib}"-sharp.dll; then \
+				CSFLAGS="${CSFLAGS} -r:${dlldir}/${cslib}-sharp/${cslib}-sharp.dll"; \
+			elif test -r "${dlldir}"/"${cslib}"-sharp.dll; then \
+				CSFLAGS="${CSFLAGS} -r:${dlldir}/${cslib}-sharp.dll"; \
 			fi; \
 		done; \
 		for csfile in $(find . -name '*.cs' -print); do \
 			if test -r "${csfile}"; then \
-				mcs "${csfile}" || mcs "${csfile}" ${CSFLAGS} || mcs ${CSFLAGS} "${csfile}" || mcs -noconfig -codepage:utf8 -warn:4 -optimize- -debug "-define:DEBUG" "${csfile}" || mcs -noconfig -codepage:utf8 -warn:4 -optimize- -debug "-define:DEBUG" "${csfile}" ${CSFLAGS} || mcs -noconfig -codepage:utf8 -warn:4 -optimize- -debug "-define:DEBUG" ${CSFLAGS} "${csfile}" || {
+				mcs "${csfile}" || mcs "${csfile}" ${CSFLAGS} || mcs -noconfig -codepage:utf8 -warn:4 -optimize- -debug "-define:DEBUG" "${csfile}" || mcs -noconfig -codepage:utf8 -warn:4 -optimize- -debug "-define:DEBUG" "${csfile}" ${CSFLAGS} || {
 					for mytflag in exe winexe library module; do \
-						mcs "${csfile}" ${CSFLAGS} -target:"${mytflag}" || mcs ${CSFLAGS} "${csfile}" -target:"${mytflag}" || mcs "${csfile}" -target:"${mytflag}" ${CSFLAGS} || mcs ${CSFLAGS} -target:"${mytflag}" "${csfile}" || mcs -target:"${mytflag}" "${csfile}" ${CSFLAGS} || mcs -target:"${mytflag}" ${CSFLAGS} "${csfile}" || mcs -noconfig -codepage:utf8 -warn:4 -optimize- -debug "-define:DEBUG" "${csfile}" -target:"${mytflag}" || mcs -noconfig -codepage:utf8 -warn:4 -optimize- -debug "-define:DEBUG" "${csfile}" ${CSFLAGS} -target:"${mytflag}" || mcs -noconfig -codepage:utf8 -warn:4 -optimize- -debug "-define:DEBUG" ${CSFLAGS} "${csfile}" -target:"${mytflag}";
+						mcs "${csfile}" ${CSFLAGS} -target:"${mytflag}" || mcs -noconfig -codepage:utf8 -warn:4 -optimize- -debug "-define:DEBUG" "${csfile}" -target:"${mytflag}" || mcs -noconfig -codepage:utf8 -warn:4 -optimize- -debug "-define:DEBUG" "${csfile}" ${CSFLAGS} -target:"${mytflag}";
 					done; \
 				} || stat "${csfile}"; \
 			fi; \
