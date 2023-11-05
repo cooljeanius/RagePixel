@@ -27,7 +27,7 @@ if test -e assets/RagePixel/RagePixelMonoDevelop/RagePixelMonoDevelop.csproj && 
 		fi; \
 		CSFLAGS=""; \
 		dlldir="/usr/lib/pkgconfig/../../lib/cli"; \
-		for cslib in pango atk gdk gtk glib unity unity-engine; do \
+		for cslib in pango atk gdk gtk glib glade unity unity-engine; do \
 			if test -r "${dlldir}"/"${cslib}"-sharp-2.0/"${cslib}"-sharp.dll; then \
 				CSFLAGS="${CSFLAGS} -r:${dlldir}/${cslib}-sharp-2.0/${cslib}-sharp.dll"; \
 			elif test -r "${dlldir}"/"${cslib}"-sharp/"${cslib}"-sharp.dll; then \
@@ -39,7 +39,7 @@ if test -e assets/RagePixel/RagePixelMonoDevelop/RagePixelMonoDevelop.csproj && 
 		echo "CSFLAGS are now: ${CSFLAGS}"; \
 		for csfile in $(find . -name '*.cs' -print); do \
 			if test -r "${csfile}"; then \
-				echo "attempting to compile ${csfile}..."; \
+				echo "attempting to use mcs to compile ${csfile}..."; \
 				mcs "${csfile}" || mcs "${csfile}" ${CSFLAGS} || mcs -noconfig -codepage:utf8 -warn:4 -optimize- -debug "-define:DEBUG" "${csfile}" || mcs -noconfig -codepage:utf8 -warn:4 -optimize- -debug "-define:DEBUG" "${csfile}" ${CSFLAGS} || {
 					for mytflag in exe winexe library module; do \
 						echo "attempting to compile ${csfile} using the ${mytflag} target..."; \
@@ -47,7 +47,12 @@ if test -e assets/RagePixel/RagePixelMonoDevelop/RagePixelMonoDevelop.csproj && 
 					done; \
 				} || stat "${csfile}"; \
 				if test -x "$(which dotnet-format)"; then \
+					echo "attempting to run $(which dotnet-format) on ${csfile}..."; \
 					dotnet-format "${csfile}" || stat "$(which dotnet-format)"; \
+				fi; \
+				if test -x "$(which csc)" && test -n "$(csc 2>&1 | grep Microsoft)"; then \
+					echo "attempting to use csc to compile ${csfile}..."; \
+					csc "${csfile}"; \
 				fi; \
 			fi; \
 		done; \

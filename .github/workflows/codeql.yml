@@ -53,6 +53,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        lfs: true
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
@@ -66,6 +68,12 @@ jobs:
         # For more details on CodeQL's query packs, refer to:
         # https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning#using-queries-in-ql-packs
         # queries: security-extended,security-and-quality
+
+    - name: Unity - Request Activation File
+      uses: game-ci/unity-request-activation-file@v2.0.0
+
+    - name: Unity - Activate
+      uses: game-ci/unity-activate@v2.0.0
 
     - name: Dependencies
       if: matrix.language == 'csharp'
