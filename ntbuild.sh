@@ -16,7 +16,7 @@ if test -e assets/RagePixel/RagePixelMonoDevelop/RagePixelMonoDevelop.csproj && 
 		done; \
 		for csfile in $(find . -name '*.cs' -print); do \
 			if test -r "${csfile}"; then \
-				mcs "${csfile}" || mcs "${CSFLAGS}" "${csfile}" || mcs -noconfig -codepage:utf8 -warn:4 -optimize- -debug "-define:DEBUG" "${csfile}" || mcs -noconfig -codepage:utf8 -warn:4 -optimize- -debug "-define:DEBUG" "${CSFLAGS}" "${csfile}" || stat "${csfile}"; \
+				mcs "${csfile}" || mcs "${csfile}" "${CSFLAGS}" || mcs -noconfig -codepage:utf8 -warn:4 -optimize- -debug "-define:DEBUG" "${csfile}" || mcs -noconfig -codepage:utf8 -warn:4 -optimize- -debug "-define:DEBUG" "${csfile}" "${CSFLAGS}" || stat "${csfile}"; \
 			fi; \
 		done; \
 	}; \
