@@ -22,6 +22,15 @@
 
  @licend  The above is the entire license notice for the JavaScript code in this file
  */
+function escapeHtml(unsafe) {
+  return unsafe
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
 function toggleVisibility(linkObj)
 {
  var base = $(linkObj).attr('id');
@@ -183,7 +192,7 @@ function init_codefold(relPath) {
     // replace minus with plus symbol
     $(line).find('span[class=fold]').css('background-image',plusImg[relPath]);
     // append ellipsis
-    $(line).append(' '+start+'<a href="javascript:codefold_toggle(\''+id+'\')">&#8230;</a>'+end);
+    $(line).append(' '+escapeHtml(start)+'<a href="javascript:codefold_toggle(\''+id+'\')">&#8230;</a>'+escapeHtml(end));
     // insert constructed line into closed div
     $('#foldclosed'+id).html(line);
   });
