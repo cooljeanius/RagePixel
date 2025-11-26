@@ -52,7 +52,11 @@ jobs:
           - language: actions
             build-mode: none
           - language: csharp
-            build-mode: ['none', 'autobuild', 'manual']
+            build-mode: none
+          - language: csharp
+            build-mode: autobuild
+          - language: csharp
+            build-mode: manual
           - language: javascript-typescript
             build-mode: none
         # CodeQL supports:
