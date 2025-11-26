@@ -1,5 +1,5 @@
 ---
-# RagePixel/.github/workflows/codeql.yml: GitHub Actions codeql workflow for RagePixel
+# RagePixel/.github/workflows/codeql.yml: GHA CodeQL workflow for RagePixel
 # For most projects, this workflow file will not need changing; you simply need
 # to commit it to your repository.
 #
@@ -52,13 +52,15 @@ jobs:
           - language: actions
             build-mode: none
           - language: csharp
-            build-mode: none
+            build-mode: autobuild
           - language: javascript-typescript
             build-mode: none
         # CodeQL supports:
-        # ['c-cpp', 'csharp', 'go', 'java-kotlin', 'javascript-typescript', 'python', 'ruby', 'swift']
-        # Use only 'java-kotlin' to analyze code written in Java, Kotlin or both
-        # Use only 'javascript-typescript' to analyze code written in JavaScript, TypeScript or both
+        # 'actions', 'c-cpp', 'csharp', 'go', 'java-kotlin',
+        # 'javascript-typescript', 'python', 'ruby', 'swift'
+        # Use 'java-kotlin' to analyze code written in Java, Kotlin, or both
+        # Use 'javascript-typescript' to analyze code written in JavaScript,
+        # TypeScript, or both
         # Learn more about CodeQL language support at:
         # https://aka.ms/codeql-docs/language-support
 
@@ -73,9 +75,12 @@ jobs:
       uses: github/codeql-action/init@v3
       with:
         languages: ${{ matrix.language }}
-        # If you wish to specify custom queries, you can do so here or in a config file.
-        # By default, queries listed here will override any specified in a config file.
-        # Prefix the list here with "+" to use these queries and those in the config file.
+        # If you wish to specify custom queries, you can do so here or in a
+        # config file.
+        # By default, queries listed here will override any specified in a
+        # config file.
+        # Prefix the list here with "+" to use these queries and those in the
+        # config file.
 
         # For more details on CodeQL's query packs, refer to:
         # https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning#using-queries-in-ql-packs
@@ -97,8 +102,9 @@ jobs:
       if: matrix.language == 'csharp'
       run: |
         sudo apt-get -qq update
-        sudo apt-get install gtk-sharp3 mono-xbuild mono-mcs mono-devel doxygen global \
-          cscope exuberant-ctags universal-ctags id-utils graphviz dotnet8
+        sudo apt-get install gtk-sharp3 mono-xbuild mono-mcs mono-devel \
+          doxygen global cscope exuberant-ctags universal-ctags id-utils \
+          graphviz dotnet8
 
     # Autobuild attempts to build any compiled languages
     # (C/C++, C#, Go, Java, or Swift).

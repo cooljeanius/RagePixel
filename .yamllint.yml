@@ -11,7 +11,7 @@ rules:
     ignore:
       - .github/workflows/codeql.yml
   line-length:
-    max: 108
+    max: 99
     level: warning
   octal-values: enable
   truthy: disable
