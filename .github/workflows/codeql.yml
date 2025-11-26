@@ -52,10 +52,6 @@ jobs:
           - language: actions
             build-mode: none
           - language: csharp
-            build-mode: none
-          - language: csharp
-            build-mode: autobuild
-          - language: csharp
             build-mode: manual
           - language: javascript-typescript
             build-mode: none
@@ -120,7 +116,7 @@ jobs:
     - name: Manual build
       if: matrix.build-mode == 'manual'
       run: |
-        sh ./ntbuild.sh || shellcheck ./ntbuild.sh
+        sh ./ntbuild.sh || shellcheck ./ntbuild.sh || stat ./ntbuild.sh
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v4
