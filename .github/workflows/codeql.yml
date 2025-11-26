@@ -19,12 +19,14 @@ on:
       - master
       - dependabot/*
       - autofix/alert-*
+      - github_actions/*
   pull_request:
     # The branches below must be a subset of the branches above
     branches:
       - master
       - dependabot/*
       - autofix/alert-*
+      - github_actions/*
   schedule:
     - cron: '42 20 * * 1'
 
@@ -46,7 +48,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: ['csharp', 'javascript-typescript']
+        language: ['actions', 'csharp', 'javascript-typescript']
         # CodeQL supports:
         # ['c-cpp', 'csharp', 'go', 'java-kotlin', 'javascript-typescript', 'python', 'ruby', 'swift']
         # Use only 'java-kotlin' to analyze code written in Java, Kotlin or both
@@ -88,8 +90,8 @@ jobs:
       if: matrix.language == 'csharp'
       run: |
         sudo apt-get -qq update
-        sudo apt-get install gtk-sharp2 mono-xbuild mono-mcs mono-devel doxygen global \
-          cscope exuberant-ctags universal-ctags id-utils graphviz dotnet6 dotnet7
+        sudo apt-get install gtk-sharp3 mono-xbuild mono-mcs mono-devel doxygen global \
+          cscope exuberant-ctags universal-ctags id-utils graphviz dotnet8
 
     # Autobuild attempts to build any compiled languages
     # (C/C++, C#, Go, Java, or Swift).
