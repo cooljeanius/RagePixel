@@ -1,9 +1,20 @@
 #!/bin/sh
 
+if test -z "${MSBUILD}"; then
+	if test -x "$(which msbuild)"; then
+		MSBUILD="$(which msbuild)"
+	elif test -x "$(which mono-xbuild)"; then
+		MSBUILD="$(which mono-xbuild)"
+	elif test -x "$(which xbuild)"; then
+		MSBUILD="$(which xbuild)"
+	else
+		MSBUILD=false
+	fi
+fi
 # shellcheck disable=SC2044,SC2086
-if test -e assets/RagePixel/RagePixelMonoDevelop/RagePixelMonoDevelop.csproj && test -x "$(which msbuild)"; then \
+if test -r assets/RagePixel/RagePixelMonoDevelop/RagePixelMonoDevelop.csproj && test -x "${MSBUILD}"; then \
 	cd assets/RagePixel/RagePixelMonoDevelop || exit; \
-	msbuild || msbuild RagePixelMonoDevelop.csproj || msbuild Packages.mdproj || msbuild RagePixelMonoDevelop.sln || {
+	"${MSBUILD}" || "${MSBUILD}" RagePixelMonoDevelop.csproj || "${MSBUILD}" Packages.mdproj || "${MSBUILD}" RagePixelMonoDevelop.sln || {
 		sh ./autogen.sh; \
 		make -ki; \
 		if test -x "$(which mkid)"; then \
@@ -58,4 +69,6 @@ if test -e assets/RagePixel/RagePixelMonoDevelop/RagePixelMonoDevelop.csproj && 
 		done; \
 		find . -name '*.o' -exec cp -v {} . ";" || find . -name '*.obj' -exec cp -v {} . ";" || find . -name '*.lib' -exec cp -v {} . ";" || find . -name '*.dll' -exec cp -v {} . ";" || find . -name '*.a' -exec cp -v {} . ";" || find . -name '*.so' -exec cp -v {} . ";" || echo "failed copying something"
 	}; \
+else \
+	echo "Cannot build with this script; figure something else out" >&2; \
 fi
