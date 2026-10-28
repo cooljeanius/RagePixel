@@ -102,9 +102,9 @@ jobs:
       if: matrix.language == 'csharp'
       run: |
         sudo apt-get -qq update
-        sudo apt-get install gtk-sharp3 mono-xbuild mono-mcs mono-devel \
-          doxygen global cscope exuberant-ctags universal-ctags id-utils \
-          graphviz dotnet8 shellcheck
+        sudo apt-get install mono-xbuild mono-mcs mono-devel doxygen \
+          global cscope exuberant-ctags universal-ctags id-utils \
+          graphviz shellcheck
 
     # Autobuild attempts to build any compiled languages
     # (C/C++, C#, Go, Java, or Swift).
